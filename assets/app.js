@@ -1,3 +1,5 @@
+import { resolveAccountability } from "./resolve-core.js";
+
 const state = {
   data: null,
   result: null
@@ -13,70 +15,14 @@ const escapeHtml = (value = "") =>
     "'": "&#039;"
   })[char]);
 
+// Only allow http(s) URLs into href attributes; anything else becomes "#".
+const safeUrl = (value = "") =>
+  /^https?:\/\//i.test(value) ? escapeHtml(value) : "#";
+
 async function loadData() {
   const response = await fetch("/data/accountability.json");
   state.data = await response.json();
   renderSources();
-}
-
-function normalize(value = "") {
-  return value.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").replace(/\s+/g, " ").trim();
-}
-
-function detectIssue(description) {
-  const text = normalize(description);
-  let winner = state.data.issueTypes[0];
-  let topScore = 0;
-
-  for (const issue of state.data.issueTypes) {
-    const score = issue.keywords.reduce((total, keyword) => {
-      return total + (text.includes(normalize(keyword)) ? 1 : 0);
-    }, 0);
-    if (score > topScore) {
-      winner = issue;
-      topScore = score;
-    }
-  }
-
-  return { ...winner, score: topScore };
-}
-
-function detectJurisdiction(location) {
-  const text = normalize(location);
-  let best = state.data.jurisdictions[state.data.jurisdictions.length - 1];
-  let score = 0;
-
-  for (const jurisdiction of state.data.jurisdictions) {
-    const localScore = jurisdiction.matches.reduce((total, item) => {
-      return total + (text.includes(normalize(item)) ? 1 : 0);
-    }, 0);
-    if (localScore > score) {
-      best = jurisdiction;
-      score = localScore;
-    }
-  }
-
-  return { ...best, score };
-}
-
-function resolveAccountability(description, location) {
-  const issue = detectIssue(description);
-  const jurisdiction = detectJurisdiction(location);
-  const chainId = jurisdiction.defaultChains[issue.id] || jurisdiction.defaultChains.road || "district-administration";
-  const chain = state.data.chains[chainId];
-  const officials = chain.officials.map((id) => ({ id, ...state.data.officials[id] }));
-  const confidence = Math.min(0.95, Math.max(0.25, chain.confidence + (issue.score ? 0.08 : -0.08) + (jurisdiction.score ? 0.08 : -0.1)));
-
-  return {
-    issue,
-    jurisdiction,
-    chainId,
-    chain,
-    officials,
-    confidence,
-    description,
-    location
-  };
 }
 
 function contactLine(contact) {
@@ -89,7 +35,7 @@ function contactLine(contact) {
 
 function renderSources() {
   $("#sources").innerHTML = state.data.sources.map((source) => `
-    <a href="${source.url}" target="_blank" rel="noreferrer">
+    <a href="${safeUrl(source.url)}" target="_blank" rel="noreferrer">
       <span>${escapeHtml(source.label)}</span>
       <small>${escapeHtml(source.usedFor)}</small>
     </a>
@@ -158,7 +104,7 @@ function renderResult(result) {
           <div><dt>Address</dt><dd>${escapeHtml(official.contact.address || "Not listed")}</dd></div>
         </dl>
         ${official.note ? `<p class="note">${escapeHtml(official.note)}</p>` : ""}
-        <a class="source-link" href="${official.source}" target="_blank" rel="noreferrer">Source</a>
+        <a class="source-link" href="${safeUrl(official.source)}" target="_blank" rel="noreferrer">Source</a>
       </div>
     </article>
   `).join("")}`;
@@ -218,7 +164,7 @@ async function handleSubmit(event) {
       if (!response.ok) throw new Error("API unavailable");
       result = await response.json();
     } catch {
-      result = resolveAccountability(description, location);
+      result = resolveAccountability(state.data, description, location);
     }
 
     state.result = result;

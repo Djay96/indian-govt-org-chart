@@ -10,6 +10,14 @@ for (const key of requiredTopLevel) {
   }
 }
 
+const issueIds = new Set();
+for (const issue of data.issueTypes) {
+  if (!issue.id || !Array.isArray(issue.keywords) || issue.keywords.length === 0) {
+    throw new Error(`Issue type ${issue.id ?? "(no id)"} needs an id and non-empty keywords`);
+  }
+  issueIds.add(issue.id);
+}
+
 for (const [id, official] of Object.entries(data.officials)) {
   for (const key of ["name", "title", "office", "contact"]) {
     if (!(key in official)) {
@@ -29,4 +37,22 @@ for (const [id, chain] of Object.entries(data.chains)) {
   }
 }
 
-console.log(`Validated ${Object.keys(data.officials).length} officials and ${Object.keys(data.chains).length} chains.`);
+// Every chain a jurisdiction points to must exist, otherwise resolution
+// would fall through to the district-administration fallback unexpectedly.
+for (const jurisdiction of data.jurisdictions) {
+  for (const [issueId, chainId] of Object.entries(jurisdiction.defaultChains ?? {})) {
+    if (!data.chains[chainId]) {
+      throw new Error(`Jurisdiction ${jurisdiction.id} maps ${issueId} to unknown chain ${chainId}`);
+    }
+  }
+}
+
+if (!data.chains["district-administration"]) {
+  throw new Error("Missing required fallback chain: district-administration");
+}
+
+console.log(
+  `Validated ${Object.keys(data.officials).length} officials, ` +
+    `${Object.keys(data.chains).length} chains, ` +
+    `${issueIds.size} issue types, ${data.jurisdictions.length} jurisdictions.`
+);
