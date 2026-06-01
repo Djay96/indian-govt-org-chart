@@ -1,0 +1,330 @@
+{
+  "verifiedOn": "2026-06-01",
+  "state": "Uttar Pradesh",
+  "notice": "This seed database mixes verified public contacts with role-level placeholders where exact local officers depend on the road-owning agency, ward, and latest postings. Always verify before sending sensitive complaints.",
+  "sources": [
+    {
+      "label": "UP Chief Minister Office key contacts",
+      "url": "https://upcmo.up.nic.in/key_contacts.htm",
+      "usedFor": "Chief Minister Office email and senior CMO contact numbers"
+    },
+    {
+      "label": "Lucknow Nagar Nigam contact page",
+      "url": "https://lmc.up.nic.in/helpline.aspx/default.aspx",
+      "usedFor": "Lucknow municipal control room, WhatsApp/calling numbers, email, address"
+    },
+    {
+      "label": "Lucknow district directory",
+      "url": "https://lucknow.nic.in/directory/",
+      "usedFor": "District Magistrate Lucknow email and mobile"
+    },
+    {
+      "label": "Lucknow district telephone directory",
+      "url": "https://lucknow.nic.in/telephone_dir/",
+      "usedFor": "Current names and phones for DM Lucknow and Nagar Ayukt Lucknow"
+    },
+    {
+      "label": "UP PWD GIS/Nigrani portal",
+      "url": "https://umd.nic.in/uppwd/",
+      "usedFor": "PWD headquarters address, phone, and pothole feedback app reference"
+    },
+    {
+      "label": "UP Legislative Assembly council of ministers",
+      "url": "https://upvidhansabhaproceedings.gov.in/en/web/guest/cabinet-ministers",
+      "usedFor": "Official council-of-ministers listing; retained as a cross-check because public PWD portfolio data is inconsistent"
+    },
+    {
+      "label": "2026 UP portfolio reporting",
+      "url": "https://theprint.in/politics/no-heavyweight-portfolios-for-new-upgraded-ministers-yogi-keeps-grip-on-up-administration-to-himself/2934091/",
+      "usedFor": "May 2026 reporting that the Chief Minister retained PWD after the latest allocation"
+    }
+  ],
+  "issueTypes": [
+    {
+      "id": "road",
+      "label": "Road or pothole",
+      "keywords": ["road", "pothole", "broken road", "gaddha", "street", "highway", "flyover", "footpath", "drain cover", "divider"],
+      "hint": "Road ownership may be municipal, PWD, development authority, expressway authority, or NHAI."
+    },
+    {
+      "id": "streetlight",
+      "label": "Streetlight",
+      "keywords": ["streetlight", "light", "lamp", "dark street", "electric pole", "pole"],
+      "hint": "Usually municipal body or local electricity/maintenance contractor depending on city."
+    },
+    {
+      "id": "sanitation",
+      "label": "Sanitation or garbage",
+      "keywords": ["garbage", "waste", "safai", "sanitation", "dump", "sewer", "drain", "nala", "waterlogging"],
+      "hint": "Usually urban local body in municipal areas; panchayat/block in rural areas."
+    },
+    {
+      "id": "water",
+      "label": "Water supply",
+      "keywords": ["water", "pipeline", "leak", "jal", "supply", "sewage", "dirty water"],
+      "hint": "Handled by local body, Jal Nigam, or Jal Sansthan depending on location."
+    }
+  ],
+  "jurisdictions": [
+    {
+      "id": "lucknow-municipal",
+      "label": "Lucknow municipal area",
+      "city": "Lucknow",
+      "district": "Lucknow",
+      "matches": ["lucknow", "gomti nagar", "hazratganj", "indira nagar", "aliganj", "aashiyana", "lalbagh", "aminabad", "chowk", "jankipuram"],
+      "defaultChains": {
+        "road": "lucknow-municipal-road",
+        "streetlight": "lucknow-municipal-civic",
+        "sanitation": "lucknow-municipal-civic",
+        "water": "lucknow-municipal-civic"
+      }
+    },
+    {
+      "id": "lucknow-district-rural",
+      "label": "Lucknow district outside municipal limits",
+      "city": "Lucknow",
+      "district": "Lucknow",
+      "matches": ["malihabad", "bakshi ka talab", "mohanlalganj", "sarojini nagar rural", "lucknow rural"],
+      "defaultChains": {
+        "road": "up-pwd-road",
+        "streetlight": "district-administration",
+        "sanitation": "district-administration",
+        "water": "district-administration"
+      }
+    },
+    {
+      "id": "statewide-up",
+      "label": "Uttar Pradesh, unspecified local body",
+      "city": "",
+      "district": "",
+      "matches": ["uttar pradesh", "up"],
+      "defaultChains": {
+        "road": "up-pwd-road",
+        "streetlight": "district-administration",
+        "sanitation": "district-administration",
+        "water": "district-administration"
+      }
+    }
+  ],
+  "officials": {
+    "lmc-control-room": {
+      "name": "Lucknow Nagar Nigam Control Room",
+      "title": "Municipal grievance intake",
+      "office": "Lucknow Nagar Nigam",
+      "level": "Local intake",
+      "verified": true,
+      "contact": {
+        "email": "nnlko@nic.in",
+        "phone": "1533",
+        "alternatePhones": ["9219902911", "9219902912", "9219902913", "9219902914"],
+        "address": "Trilokinath Road, Lalbagh, Lucknow-226001"
+      },
+      "source": "https://lmc.up.nic.in/helpline.aspx/default.aspx"
+    },
+    "lmc-chief-engineer-role": {
+      "name": "Chief Engineer, Lucknow Nagar Nigam",
+      "title": "Chief Engineer",
+      "office": "Lucknow Nagar Nigam Engineering Department",
+      "level": "Technical department head",
+      "verified": false,
+      "contact": {
+        "email": "nnlko@nic.in",
+        "phone": "0522-2621116",
+        "address": "Lucknow Municipal Corporation, Triloki Nath Road, Lalbagh, Lucknow"
+      },
+      "source": "https://lmc.up.nic.in/ViewPDF.ashx?Id=507&download=1",
+      "note": "Name/posting needs live verification from LMC engineering directory."
+    },
+    "lmc-municipal-commissioner-role": {
+      "name": "Shri Gaurav Kumar, IAS",
+      "title": "Nagar Ayukt (Municipal Commissioner), Lucknow",
+      "office": "Lucknow Nagar Nigam",
+      "level": "City executive authority",
+      "verified": true,
+      "contact": {
+        "email": "nnlko@nic.in",
+        "phone": "+91-8189077822",
+        "address": "Nagar Nigam H.Q, Lalbagh, Lucknow, Uttar Pradesh"
+      },
+      "source": "https://lucknow.nic.in/telephone_dir/",
+      "note": "Name and phone from Lucknow district telephone directory; email from Lucknow Nagar Nigam contact page."
+    },
+    "dm-lucknow": {
+      "name": "Shri Vishak G, IAS",
+      "title": "District Magistrate, Lucknow",
+      "office": "District Lucknow",
+      "level": "District administration",
+      "verified": true,
+      "contact": {
+        "email": "dmluc@nic.in",
+        "phone": "+91-9415005000",
+        "alternatePhones": ["+91-5222230099"],
+        "address": "Room No. 49, Office of the District Magistrate, Qaisar Bagh, Lucknow, Uttar Pradesh-226001"
+      },
+      "source": "https://lucknow.nic.in/telephone_dir/"
+    },
+    "pwd-headquarters": {
+      "name": "Public Works Department Headquarters",
+      "title": "PWD headquarters / pothole feedback intake",
+      "office": "Public Works Department, Government of Uttar Pradesh",
+      "level": "State department intake",
+      "verified": true,
+      "contact": {
+        "email": "",
+        "phone": "0522-2235315",
+        "address": "96, Mahatma Gandhi Marg, Raj Bhavan Colony, The Mall Avenue, Lucknow, Uttar Pradesh 226001"
+      },
+      "source": "https://umd.nic.in/uppwd/",
+      "note": "UP PWD portal also advertises the Nigrani pothole feedback and inspection Android app."
+    },
+    "pwd-local-engineer-role": {
+      "name": "Executive Engineer, PWD division for the road",
+      "title": "Executive Engineer",
+      "office": "UP Public Works Department",
+      "level": "Division engineer",
+      "verified": false,
+      "contact": {
+        "email": "",
+        "phone": "",
+        "address": "Use district/division directory after road ownership is confirmed"
+      },
+      "source": "https://wms.uppwd.gov.in/nigranilogin.aspx",
+      "note": "Exact division depends on road class and location."
+    },
+    "pwd-superintending-engineer-role": {
+      "name": "Superintending Engineer, PWD circle",
+      "title": "Superintending Engineer",
+      "office": "UP Public Works Department",
+      "level": "Circle engineer",
+      "verified": false,
+      "contact": {
+        "email": "",
+        "phone": "",
+        "address": "Confirm from latest PWD circle directory"
+      },
+      "source": "https://wms.uppwd.gov.in/nigranilogin.aspx"
+    },
+    "pwd-engineer-in-chief-role": {
+      "name": "Engineer-in-Chief / HOD, PWD Uttar Pradesh",
+      "title": "Engineer-in-Chief / Head of Department",
+      "office": "Public Works Department, Uttar Pradesh",
+      "level": "Department technical head",
+      "verified": false,
+      "contact": {
+        "email": "",
+        "phone": "0522-2235315",
+        "address": "PWD headquarters, 96 Mahatma Gandhi Marg, Lucknow"
+      },
+      "source": "https://umd.nic.in/uppwd/",
+      "note": "Exact incumbent name should be verified from latest PWD establishment order or directory before addressing by name."
+    },
+    "urban-development-principal-secretary-role": {
+      "name": "Principal Secretary, Urban Development",
+      "title": "Principal Secretary",
+      "office": "Urban Development Department, Uttar Pradesh",
+      "level": "State administrative head",
+      "verified": false,
+      "contact": {
+        "email": "",
+        "phone": "",
+        "address": "Lok Bhawan / Secretariat, Lucknow"
+      },
+      "source": "https://up.gov.in"
+    },
+    "pwd-principal-secretary-role": {
+      "name": "Principal Secretary, Public Works Department",
+      "title": "Principal Secretary",
+      "office": "Public Works Department, Uttar Pradesh",
+      "level": "State administrative head",
+      "verified": false,
+      "contact": {
+        "email": "",
+        "phone": "",
+        "address": "Lok Bhawan / Secretariat, Lucknow"
+      },
+      "source": "https://up.gov.in"
+    },
+    "cm-office": {
+      "name": "Chief Minister Office, Uttar Pradesh",
+      "title": "Chief Minister Office",
+      "office": "Government of Uttar Pradesh",
+      "level": "Chief Minister level",
+      "verified": true,
+      "contact": {
+        "email": "cmup@nic.in",
+        "phone": "0522-2289017",
+        "alternatePhones": ["0522-2289010", "0522-2289167", "0522-2239234"],
+        "address": "Lok Bhawan, Lucknow, Uttar Pradesh"
+      },
+      "source": "https://upcmo.up.nic.in/key_contacts.htm"
+    },
+    "cm-yogi": {
+      "name": "Yogi Adityanath",
+      "title": "Chief Minister; PWD portfolio status needs current notification check",
+      "office": "Government of Uttar Pradesh",
+      "level": "Elected executive",
+      "verified": true,
+      "contact": {
+        "email": "cmup@nic.in",
+        "phone": "0522-2289017",
+        "alternatePhones": ["0522-2289010", "0522-2289167", "0522-2239234"],
+        "address": "Lok Bhawan, Lucknow, Uttar Pradesh"
+      },
+      "source": "https://upcmo.up.nic.in/key_contacts.htm",
+      "note": "CMO contact is official. PWD portfolio is conflicting in public sources: the Assembly page lists Jitin Prasad for PWD, while May 2026 reporting says the CM retained PWD after the cabinet expansion."
+    }
+  },
+  "chains": {
+    "lucknow-municipal-road": {
+      "label": "Municipal road or pothole in Lucknow",
+      "department": "Lucknow Nagar Nigam / Urban Development",
+      "ownershipTest": "If the road is inside municipal limits and not a national/state highway, start with Nagar Nigam.",
+      "confidence": 0.78,
+      "officials": [
+        "lmc-control-room",
+        "lmc-chief-engineer-role",
+        "lmc-municipal-commissioner-role",
+        "dm-lucknow",
+        "urban-development-principal-secretary-role",
+        "cm-office"
+      ]
+    },
+    "lucknow-municipal-civic": {
+      "label": "Municipal civic issue in Lucknow",
+      "department": "Lucknow Nagar Nigam / Urban Development",
+      "ownershipTest": "Municipal services such as sanitation, streetlights, and local drains generally begin with the urban local body.",
+      "confidence": 0.82,
+      "officials": [
+        "lmc-control-room",
+        "lmc-municipal-commissioner-role",
+        "dm-lucknow",
+        "urban-development-principal-secretary-role",
+        "cm-office"
+      ]
+    },
+    "up-pwd-road": {
+      "label": "PWD/state road issue",
+      "department": "Public Works Department, Uttar Pradesh",
+      "ownershipTest": "Use this chain for state highways, major district roads, and rural roads maintained by PWD; national highways go to NHAI.",
+      "confidence": 0.62,
+      "officials": [
+        "pwd-headquarters",
+        "pwd-local-engineer-role",
+        "pwd-superintending-engineer-role",
+        "pwd-engineer-in-chief-role",
+        "pwd-principal-secretary-role",
+        "cm-yogi"
+      ]
+    },
+    "district-administration": {
+      "label": "District administration escalation",
+      "department": "District Administration",
+      "ownershipTest": "Use when the exact department is unclear or the issue crosses local bodies.",
+      "confidence": 0.48,
+      "officials": [
+        "dm-lucknow",
+        "cm-office"
+      ]
+    }
+  }
+}
