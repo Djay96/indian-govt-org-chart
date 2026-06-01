@@ -7,7 +7,7 @@
     "dev": "python3 -m http.server 8888",
     "build": "node scripts/validate-data.mjs",
     "test": "node --test",
-    "coverage": "c8 --include 'assets/resolve-core.js' --check-coverage --lines 97 --branches 97 --functions 97 --statements 97 node --test",
+    "coverage": "c8 --include 'assets/resolve-core.js' --include 'assets/format-core.js' --include 'scripts/validate-data.mjs' --include 'netlify/functions/resolve.js' --check-coverage --lines 97 --branches 97 --functions 97 --statements 97 node --test",
     "netlify:dev": "npx netlify dev",
     "deploy": "npx netlify deploy --prod"
   },

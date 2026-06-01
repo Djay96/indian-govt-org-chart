@@ -1,4 +1,5 @@
 import { resolveAccountability } from "./resolve-core.js";
+import { escapeHtml, safeUrl, contactLine, buildEmail } from "./format-core.js";
 
 const state = {
   data: null,
@@ -6,31 +7,11 @@ const state = {
 };
 
 const $ = (selector) => document.querySelector(selector);
-const escapeHtml = (value = "") =>
-  String(value).replace(/[&<>"']/g, (char) => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    "\"": "&quot;",
-    "'": "&#039;"
-  })[char]);
-
-// Only allow http(s) URLs into href attributes; anything else becomes "#".
-const safeUrl = (value = "") =>
-  /^https?:\/\//i.test(value) ? escapeHtml(value) : "#";
 
 async function loadData() {
   const response = await fetch("/data/accountability.json");
   state.data = await response.json();
   renderSources();
-}
-
-function contactLine(contact) {
-  const parts = [];
-  if (contact.email) parts.push(contact.email);
-  if (contact.phone) parts.push(contact.phone);
-  if (contact.alternatePhones?.length) parts.push(contact.alternatePhones.join(", "));
-  return parts.length ? parts.join(" | ") : "Contact to verify";
 }
 
 function renderSources() {
@@ -108,18 +89,6 @@ function renderResult(result) {
       </div>
     </article>
   `).join("")}`;
-}
-
-function buildEmail(result) {
-  const primary = result.officials[0];
-  const cc = result.officials.slice(1).map((official) => official.contact.email).filter(Boolean);
-  const subject = `Complaint: ${result.issue.label} at ${result.location}`;
-  const chainText = result.officials.map((official, index) =>
-    `${index + 1}. ${official.name}, ${official.title}, ${official.office} (${contactLine(official.contact)})`
-  ).join("\n");
-  const body = `To,\n${primary.name}\n${primary.office}\n\nI am reporting the following public issue:\n\nIssue: ${result.description}\nExact location: ${result.location}\nMatched department: ${result.chain.department}\n\nRequested action:\nPlease inspect the location, confirm ownership of the road/service, register a complaint number, and share the expected date for repair/resolution. If this office is not the owning agency, please forward it to the correct officer and inform me of the transfer.\n\nEscalation chain for reference:\n${chainText}\n\nSource verification date: ${state.data.verifiedOn}\n\nRegards,\n[Your name]\n[Your phone]\n[Your address]`;
-
-  return { to: primary.contact.email || "", cc, subject, body };
 }
 
 function renderEmail(result) {
