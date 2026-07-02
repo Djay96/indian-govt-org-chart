@@ -1,20 +1,35 @@
 {
-  "name": "kisko-bolun-up",
-  "version": "0.1.0",
+  "name": "accountability-matrix",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "python3 -m http.server 8888",
-    "build": "node scripts/validate-data.mjs",
+    "dev": "vite",
+    "build": "node scripts/build-data.mjs && vite build",
+    "preview": "vite preview",
+    "build:data": "node scripts/build-data.mjs",
     "test": "node --test",
-    "coverage": "c8 --include 'assets/resolve-core.js' --include 'assets/format-core.js' --include 'scripts/validate-data.mjs' --include 'netlify/functions/resolve.js' --check-coverage --lines 97 --branches 97 --functions 97 --statements 97 node --test",
     "netlify:dev": "npx netlify dev",
-    "deploy": "npx netlify deploy --prod"
-  },
-  "devDependencies": {
-    "c8": "^11.0.0"
+    "deploy": "npm run build && npx netlify deploy --prod"
   },
   "dependencies": {
-    "playwright": "^1.61.1"
+    "fuse.js": "^7.1.0",
+    "marked": "^15.0.12",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^4.1.2",
+    "@netlify/vite-plugin": "^2.7.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
   }
 }

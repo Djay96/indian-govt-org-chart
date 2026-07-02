@@ -1,0 +1,16 @@
+{
+  "name": "Indian Government Org Chart",
+  "short_name": "Gov Org Chart",
+  "description": "Open government org-chart data for India",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f7f9",
+  "theme_color": "#22262f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

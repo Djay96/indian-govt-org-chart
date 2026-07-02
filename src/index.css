@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-ink-50 text-ink-900 font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-saffron-400/30;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-ink-200/80 bg-white shadow-sm;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium transition-all;
+  }
+
+  .btn-primary {
+    @apply btn bg-ink-950 text-white hover:bg-ink-800 active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply btn border border-ink-200 bg-white text-ink-800 hover:bg-ink-50;
+  }
+
+  .input {
+    @apply w-full rounded-xl border border-ink-200 bg-white px-4 py-2.5 text-sm outline-none transition focus:border-saffron-400 focus:ring-2 focus:ring-saffron-400/20;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+
+  .wiki-content h1 {
+    @apply font-display text-3xl font-bold text-ink-950 mb-4 mt-8 first:mt-0;
+  }
+
+  .wiki-content h2 {
+    @apply font-display text-2xl font-semibold text-ink-900 mb-3 mt-8 border-b border-ink-100 pb-2;
+  }
+
+  .wiki-content h3 {
+    @apply text-lg font-semibold text-ink-800 mb-2 mt-6;
+  }
+
+  .wiki-content p {
+    @apply mb-4 leading-relaxed text-ink-700;
+  }
+
+  .wiki-content ul,
+  .wiki-content ol {
+    @apply mb-4 ml-6 space-y-1 text-ink-700;
+  }
+
+  .wiki-content ul {
+    @apply list-disc;
+  }
+
+  .wiki-content ol {
+    @apply list-decimal;
+  }
+
+  .wiki-content a {
+    @apply text-saffron-600 underline decoration-saffron-400/40 underline-offset-2 hover:decoration-saffron-500;
+  }
+
+  .wiki-content code {
+    @apply rounded bg-ink-100 px-1.5 py-0.5 font-mono text-sm text-ink-800;
+  }
+
+  .wiki-content pre {
+    @apply mb-4 overflow-x-auto rounded-xl bg-ink-950 p-4 text-sm text-ink-100;
+  }
+
+  .wiki-content pre code {
+    @apply bg-transparent p-0 text-inherit;
+  }
+
+  .wiki-content blockquote {
+    @apply mb-4 border-l-4 border-saffron-400 pl-4 italic text-ink-600;
+  }
+
+  .wiki-content table {
+    @apply mb-4 w-full border-collapse text-sm;
+  }
+
+  .wiki-content th,
+  .wiki-content td {
+    @apply border border-ink-200 px-3 py-2 text-left;
+  }
+
+  .wiki-content th {
+    @apply bg-ink-50 font-semibold;
+  }
+}

@@ -4,6 +4,17 @@
 # Dependencies
 node_modules
 
+# Build output
+dist
+
+# Generated at build time from Accountable India CSVs
+public/data/*.json
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
 # Coverage output
 coverage
 .nyc_output

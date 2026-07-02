@@ -1,127 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Kisko Bolun UP helps people find the accountability chain for public issues in Uttar Pradesh.">
-    <title>Kisko Bolun UP</title>
-    <link rel="stylesheet" href="/assets/styles.css">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Indian Government Org Chart — open government data for India. Explore offices, contacts, and responsibility chains." />
+    <meta property="og:title" content="Indian Government Org Chart" />
+    <meta property="og:description" content="Open org-chart data for every government office in India — dashboards, search, and AI agent." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Indian Government Org Chart" />
+    <meta name="twitter:description" content="Open org-chart data for every government office in India." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Indian Government Org Chart</title>
   </head>
   <body>
-    <main class="shell">
-      <section class="workspace">
-        <div class="intro">
-          <p class="eyebrow">Kisko Bolun UP</p>
-          <h1>Find who owns the problem.</h1>
-          <p class="lead">Describe a public issue and its exact location. The app maps it to a likely department, shows the accountability chain, and drafts an escalation email.</p>
-        </div>
-
-        <form id="matrixForm" class="issue-form">
-          <label>
-            <span>Issue</span>
-            <textarea id="issue" name="issue" rows="5" placeholder="Example: The road has a deep pothole and two-wheelers are slipping near the crossing." required></textarea>
-          </label>
-          <label>
-            <span>Exact location</span>
-            <input id="location" name="location" placeholder="Example: Patrakarpuram crossing, Gomti Nagar, Lucknow" required>
-          </label>
-          <button id="submitButton" type="submit">Find accountability</button>
-        </form>
-
-        <div id="examples" class="examples" aria-label="Example searches">
-          <button data-example="Broken road and pothole near a market crossing||Patrakarpuram, Gomti Nagar, Lucknow">Pothole in Lucknow</button>
-          <button data-example="Streetlight not working and the lane is dark||Hazratganj, Lucknow">Streetlight</button>
-          <button data-example="Broken rural road near village approach||Mohanlalganj, Lucknow rural">Rural road</button>
-        </div>
-
-        <section class="source-band" aria-labelledby="sourceHeading">
-          <div>
-            <p class="eyebrow">Data status</p>
-            <h2 id="sourceHeading">Verified where possible, explicit where not.</h2>
-          </div>
-          <p>Data checked on <strong id="verifiedOn">loading</strong>. Current public records are used where available; disputed or fast-changing postings are marked for verification.</p>
-        </section>
-      </section>
-
-      <section class="matrix" aria-live="polite">
-        <div id="resultEmpty" class="empty">
-          <span></span>
-          <h2>Accountability chain will appear here.</h2>
-          <p>Try a road, streetlight, sanitation, or water issue. Location matching currently includes Lucknow examples and a statewide fallback.</p>
-        </div>
-
-        <div id="resultPanel" hidden>
-          <div id="matchSummary" class="match-summary"></div>
-          <div id="classification" class="classification"></div>
-          <div id="officialChain" class="official-chain"></div>
-
-          <section class="draft-panel" aria-labelledby="draftHeading">
-            <div class="draft-head">
-              <div>
-                <p class="eyebrow">Draft mail</p>
-                <h2 id="draftHeading">Ready escalation text</h2>
-              </div>
-              <div class="draft-actions">
-                <button id="copyDraft" type="button">Copy draft</button>
-                <a id="mailtoLink" href="mailto:">Open email</a>
-              </div>
-            </div>
-            <div class="mail-meta">
-              <p><strong>To</strong><span id="toField"></span></p>
-              <p><strong>Cc</strong><span id="ccField"></span></p>
-            </div>
-            <textarea id="draftText" rows="16" readonly></textarea>
-          </section>
-        </div>
-      </section>
-
-      <section class="feedback-panel" aria-labelledby="feedbackHeading">
-        <div>
-          <p class="eyebrow">Community correction</p>
-          <h2 id="feedbackHeading">Flag incorrect detail</h2>
-          <p>Officer postings, phone numbers, and department ownership change often. Send the correction with a source link so the database can be updated.</p>
-        </div>
-        <form id="feedbackForm" name="correction-feedback" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="correction-feedback">
-          <input type="hidden" id="feedbackChain" name="matched_chain" value="">
-          <input type="hidden" id="feedbackIssue" name="matched_issue" value="">
-          <p class="hidden-field">
-            <label>Leave this empty <input name="bot-field"></label>
-          </p>
-          <label>
-            <span>What is wrong?</span>
-            <select name="problem_type" required>
-              <option value="">Choose one</option>
-              <option>Wrong officer name</option>
-              <option>Wrong phone or email</option>
-              <option>Wrong department chain</option>
-              <option>Missing local area</option>
-              <option>Other correction</option>
-            </select>
-          </label>
-          <label>
-            <span>Correction details</span>
-            <textarea name="correction" rows="4" placeholder="Example: Nagar Ayukt phone should be..." required></textarea>
-          </label>
-          <label>
-            <span>Source link</span>
-            <input name="source_url" type="url" placeholder="Official page, order, directory, or public notice">
-          </label>
-          <label>
-            <span>Your contact</span>
-            <input name="reporter_contact" placeholder="Email or phone, optional">
-          </label>
-          <button id="feedbackButton" type="submit">Send correction</button>
-          <p id="feedbackStatus" class="feedback-status" role="status"></p>
-        </form>
-      </section>
-
-      <aside class="sources">
-        <p class="eyebrow">Sources</p>
-        <div id="sources"></div>
-      </aside>
-    </main>
-
-    <script type="module" src="/assets/app.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
