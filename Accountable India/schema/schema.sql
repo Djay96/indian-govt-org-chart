@@ -234,7 +234,11 @@ CREATE TABLE responsibility_map (
     source_url      TEXT,
     created_at      TIMESTAMPTZ DEFAULT now(),
     updated_at      TIMESTAMPTZ DEFAULT now(),
-    CONSTRAINT resp_has_target CHECK (body_id IS NOT NULL OR position_id IS NOT NULL)
+    -- Generic mappings may identify the responsible administrative level when
+    -- the exact body varies by jurisdiction (for example a city's water utility).
+    CONSTRAINT resp_has_target CHECK (
+        body_id IS NOT NULL OR position_id IS NOT NULL OR jurisdiction_level IS NOT NULL
+    )
 );
 CREATE INDEX idx_resp_topic    ON responsibility_map(topic_id);
 CREATE INDEX idx_resp_body     ON responsibility_map(body_id);
