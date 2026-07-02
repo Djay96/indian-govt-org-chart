@@ -1,4 +1,4 @@
-# Accountability Matrix — Open Government Data for India
+# Indian Government Org Chart — Open Accountability Data
 
 Two projects to make government accountable to citizens:
 
