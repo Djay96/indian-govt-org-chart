@@ -1,0 +1,5 @@
+id,entity_type,entity_id,source_name,source_url,retrieved_at,confidence,notes
+1,person,1,President of India official site,https://www.presidentofindia.gov.in/,2026-06-26,0.90,"Droupadi Murmu"
+2,person,2,Vice President of India official site,https://vicepresidentofindia.nic.in/,2026-06-26,0.90,"C. P. Radhakrishnan"
+3,person,3,PMO official site,https://www.pmindia.gov.in/en/,2026-06-26,0.90,"Narendra Modi"
+4,body,1,National Portal - Council of Ministers,https://www.india.gov.in/directory/whos-who/council-of-ministers,2026-06-26,0.80,"Seed list of ministries"

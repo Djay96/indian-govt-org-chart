@@ -1,0 +1,294 @@
+id,jurisdiction_id,parent_body_id,name,short_name,body_type,description,official_website,source_url,confidence,data_status,last_verified_at
+1,1,,Prime Minister's Office,PMO,office,Office of the Prime Minister of India,https://www.pmindia.gov.in,https://www.pmindia.gov.in/en/,0.85,collected,2026-06-26
+2,1,,Ministry of Home Affairs,MHA,ministry,"Internal security, border management, police, disaster management",https://www.mha.gov.in,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
+3,1,,Ministry of Defence,MoD,ministry,Defence of India and the armed forces,https://www.mod.gov.in,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
+4,1,,Ministry of Finance,MoF,ministry,"Taxation, expenditure, financial regulation, economic affairs",https://www.finmin.nic.in,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
+5,1,,Ministry of Railways,MoR,ministry,Indian Railways,https://www.indianrailways.gov.in,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
+6,1,,Ministry of Education,MoE,ministry,School and higher education,https://www.education.gov.in,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
+7,1,,Ministry of Road Transport and Highways,MoRTH,ministry,National highways and road transport,https://morth.nic.in,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.85,collected,2026-06-26
+8,1,,Ministry of Health and Family Welfare,MoHFW,ministry,Public health and family welfare,https://www.mohfw.gov.in,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.85,collected,2026-06-26
+9,1,,Ministry of Agriculture and Farmers' Welfare,MoA&FW,ministry,Agriculture and Farmers' Welfare,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+10,1,,Ministry of External Affairs,MEA,ministry,External Affairs,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+11,1,,Ministry of Power,MoP,ministry,Power,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+12,1,,Ministry of Heavy Industries,MHI,ministry,Heavy Industries,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+13,1,,Ministry of Commerce and Industry,MoCI,ministry,Commerce and Industry,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+14,1,,"Ministry of Micro, Small and Medium Enterprises",MoMSME,ministry,"Micro, Small and Medium Enterprises",,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+15,1,,Ministry of Panchayati Raj,MoPR,ministry,Panchayati Raj,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+16,1,,"Ministry of Ports, Shipping and Waterways",MoPSW,ministry,"Ports, Shipping and Waterways",,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+17,1,,Ministry of Social Justice and Empowerment,MoSJE,ministry,Social Justice and Empowerment,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+18,1,,Ministry of Civil Aviation,MoCA,ministry,Civil Aviation,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+19,1,,"Ministry of Consumer Affairs, Food and Public Distribution",MoCAF&PD,ministry,"Consumer Affairs, Food and Public Distribution",,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+20,1,,Ministry of Tribal Affairs,MoTA,ministry,Tribal Affairs,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+21,1,,Ministry of Textiles,MoT,ministry,Textiles,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+22,1,,Ministry of Communications,MoCom,ministry,Communications,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+23,1,,"Ministry of Environment, Forest and Climate Change",MoEFCC,ministry,"Environment, Forest and Climate Change",,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+24,1,,Ministry of Culture,MoCulture,ministry,Culture,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+25,1,,Ministry of Women and Child Development,MoWCD,ministry,Women and Child Development,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+26,1,,Ministry of Parliamentary Affairs,MoPA,ministry,Parliamentary Affairs,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+27,1,,Ministry of Petroleum and Natural Gas,MoPNG,ministry,Petroleum and Natural Gas,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+28,1,,Ministry of Labour and Employment,MoLE,ministry,Labour and Employment,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+29,1,,Ministry of Coal,MoCoal,ministry,Coal,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+30,1,,Ministry of Food Processing Industries,MoFPI,ministry,Food Processing Industries,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+31,1,,Ministry of Jal Shakti,MoJS,ministry,Jal Shakti,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+32,1,,Ministry of Statistics and Programme Implementation,MoSPI,ministry,Statistics and Programme Implementation,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+33,1,,Ministry of Science and Technology,MoST,ministry,Science and Technology,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+34,1,,Ministry of Law and Justice,MoLJ,ministry,Law and Justice,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+35,1,,Ministry of AYUSH,MoAYUSH,ministry,AYUSH,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+36,1,,Ministry of Skill Development and Entrepreneurship,MSDE,ministry,Skill Development and Entrepreneurship,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+37,1,,Supreme Court of India,SCI,authority,Apex judicial body of India,https://www.sci.gov.in,https://www.sci.gov.in/chief-justice-judges/,0.85,collected,2026-06-26
+38,1,,Election Commission of India,ECI,commission,Constitutional body conducting elections,https://www.eci.gov.in,https://en.wikipedia.org/wiki/Chief_Election_Commissioner_of_India,0.85,collected,2026-06-26
+39,1,,Comptroller and Auditor General of India,CAG,authority,Supreme audit institution of India,https://cag.gov.in,https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India,0.80,collected,2026-06-26
+40,1,,Office of the Attorney General for India,AGI,office,Chief legal adviser to the Government of India,,https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India,0.80,collected,2026-06-26
+41,1,,Lok Sabha,LS,office,House of the People (lower house of Parliament),https://sansad.in/ls,https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India,0.80,collected,2026-06-26
+42,1,,Rajya Sabha,RS,office,Council of States (upper house of Parliament); chaired ex-officio by the Vice President,https://sansad.in/rs,https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India,0.80,collected,2026-06-26
+43,1,,Cabinet Secretariat,CabSec,office,Apex civil service body; supports the Union Cabinet,https://cabsec.gov.in,https://en.wikipedia.org/wiki/Cabinet_Secretary_(India),0.80,collected,2026-06-26
+44,41,,Greater Visakhapatnam Municipal Corporation,,local_body,"Urban local body governing Visakhapatnam, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+45,2,,Vijayawada Municipal Corporation,,local_body,"Urban local body governing Vijayawada, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+46,52,,Guntur Municipal Corporation,,local_body,"Urban local body governing Guntur, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+47,2,,Nellore Municipal Corporation,,local_body,"Urban local body governing Nellore, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+48,56,,Kurnool Municipal Corporation,,local_body,"Urban local body governing Kurnool, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+49,2,,Rajamahendravaram Municipal Corporation,,local_body,"Urban local body governing Rajamahendravaram, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+50,2,,Kadapa Municipal Corporation,,local_body,"Urban local body governing Kadapa, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+51,2,,Mangalagiri Tadepalli Municipal Corporation,,local_body,"Urban local body governing Mangalagiri, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+52,44,,Kakinada Municipal Corporation,,local_body,"Urban local body governing Kakinada, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+53,62,,Tirupati Municipal Corporation,,local_body,"Urban local body governing Tirupati, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+54,47,,Eluru Municipal Corporation,,local_body,"Urban local body governing Eluru, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+55,2,,Anantapur Municipal Corporation,,local_body,"Urban local body governing Anantapur, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+56,2,,Ongole Municipal Corporation,,local_body,"Urban local body governing Ongole, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+57,40,,Vizianagaram Municipal Corporation,,local_body,"Urban local body governing Vizianagaram, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+58,2,,Machilipatnam Municipal Corporation,,local_body,"Urban local body governing Machilipatnam, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+59,63,,Chittoor Municipal Corporation,,local_body,"Urban local body governing Chittoor, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+60,38,,Srikakulam Municipal Corporation,,local_body,"Urban local body governing Srikakulam, Andhra Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+61,3,,Itanagar Municipal Corporation,,local_body,"Urban local body governing Itanagar, Arunachal Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+62,4,,Guwahati Municipal Corporation,,local_body,"Urban local body governing Guwahati, Assam",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+63,101,,Dibrugarh Municipal Corporation,,local_body,"Urban local body governing Dibrugarh, Assam",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+64,4,,Silchar Municipal Corporation,,local_body,"Urban local body governing Silchar, Assam",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+65,5,,Arrah Municipal Corporation,,local_body,"Urban local body governing Arrah, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+66,129,,Begusarai Municipal Corporation,,local_body,"Urban local body governing Begusarai, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+67,5,,Bettiah Municipal Corporation,,local_body,"Urban local body governing Bettiah, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+68,130,,Bhagalpur Municipal Corporation,,local_body,"Urban local body governing Bhagalpur, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+69,5,,Bihar Sharif Municipal Corporation,,local_body,"Urban local body governing Bihar Sharif, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+70,5,,Chhapra Municipal Corporation,,local_body,"Urban local body governing Chhapra, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+71,133,,Darbhanga Municipal Corporation,,local_body,"Urban local body governing Darbhanga, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+72,135,,Gaya Municipal Corporation,,local_body,"Urban local body governing Gaya, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+73,142,,Katihar Municipal Corporation,,local_body,"Urban local body governing Katihar, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+74,144,,Madhubani Municipal Corporation,,local_body,"Urban local body governing Madhubani, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+75,5,,Motihari Municipal Corporation,,local_body,"Urban local body governing Motihari, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+76,145,,Munger Municipal Corporation,,local_body,"Urban local body governing Munger, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+77,147,,Muzaffarpur Municipal Corporation,,local_body,"Urban local body governing Muzaffarpur, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+78,150,,Patna Municipal Corporation,,local_body,"Urban local body governing Patna, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+79,151,,Purnia Municipal Corporation,,local_body,"Urban local body governing Purnia, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+80,153,,Saharsa Municipal Corporation,,local_body,"Urban local body governing Saharsa, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+81,154,,Samastipur Municipal Corporation,,local_body,"Urban local body governing Samastipur, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+82,5,,Sasaram Municipal Corporation,,local_body,"Urban local body governing Sasaram, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+83,158,,Sitamarhi Municipal Corporation,,local_body,"Urban local body governing Sitamarhi, Bihar",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+84,811,,Chandigarh Municipal Corporation,,local_body,"Urban local body governing Chandigarh, Chandigarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+85,189,,Raipur Municipal Corporation,,local_body,"Urban local body governing Raipur, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+86,169,,Bilaspur Municipal Corporation,,local_body,"Urban local body governing Bilaspur, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+87,6,,Jagdalpur Municipal Corporation,,local_body,"Urban local body governing Jagdalpur, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+88,172,,Durg Municipal Corporation,,local_body,"Urban local body governing Durg, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+89,181,,Korba Municipal Corporation,,local_body,"Urban local body governing Korba, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+90,190,,Rajnandgaon Municipal Corporation,,local_body,"Urban local body governing Rajnandgaon, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+91,188,,Raigarh Municipal Corporation,,local_body,"Urban local body governing Raigarh, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+92,6,,Ambikapur Municipal Corporation,,local_body,"Urban local body governing Ambikapur, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+93,171,,Dhamtari Municipal Corporation,,local_body,"Urban local body governing Dhamtari, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+94,6,,Bhilai Municipal Corporation,,local_body,"Urban local body governing Bhilai, Chhattisgarh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+95,30,,Municipal Corporation of Delhi,,local_body,"Urban local body governing Delhi, Delhi (NCT)",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+96,7,,Corporation of the City of Panaji,,local_body,"Urban local body governing Panaji, Goa",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+97,198,,Ahmedabad Municipal Corporation,,local_body,"Urban local body governing Ahmedabad, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+98,226,,Surat Municipal Corporation,,local_body,"Urban local body governing Surat, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+99,210,,Gandhinagar Municipal Corporation,,local_body,"Urban local body governing Gandhinagar, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+100,229,,Vadodara Municipal Corporation,,local_body,"Urban local body governing Vadodara, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+101,224,,Rajkot Municipal Corporation,,local_body,"Urban local body governing Rajkot, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+102,204,,Bhavnagar Municipal Corporation,,local_body,"Urban local body governing Bhavnagar, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+103,212,,Jamnagar Municipal Corporation,,local_body,"Urban local body governing Jamnagar, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+104,213,,Junagadh Municipal Corporation,,local_body,"Urban local body governing Junagadh, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+105,8,,Nadiad Municipal Corporation,,local_body,"Urban local body governing Nadiad, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+106,217,,Mehsana Municipal Corporation,,local_body,"Urban local body governing Mehsana, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+107,220,,Navsari Municipal Corporation,,local_body,"Urban local body governing Navsari, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+108,218,,Morbi Municipal Corporation,,local_body,"Urban local body governing Morbi, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+109,8,,Gandhidham Municipal Corporation,,local_body,"Urban local body governing Gandhidham, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+110,8,,Vapi Municipal Corporation,,local_body,"Urban local body governing Vapi, Gujarat",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+111,239,,Gurugram Municipal Corporation,,local_body,"Urban local body governing Gurugram, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+112,236,,Faridabad Municipal Corporation,,local_body,"Urban local body governing Faridabad, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+113,253,,Sonipat Municipal Corporation,,local_body,"Urban local body governing Sonipat, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+114,234,,Panchkula Municipal Corporation,,local_body,"Urban local body governing Panchkula, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+115,235,,Yamunanagar Municipal Corporation,,local_body,"Urban local body governing Yamunanagar, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+116,249,,Rohtak Municipal Corporation,,local_body,"Urban local body governing Rohtak, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+117,246,,Karnal Municipal Corporation,,local_body,"Urban local body governing Karnal, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+118,242,,Hisar Municipal Corporation,,local_body,"Urban local body governing Hisar, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+119,248,,Panipat Municipal Corporation,,local_body,"Urban local body governing Panipat, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+120,232,,Ambala Municipal Corporation,,local_body,"Urban local body governing Ambala, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+121,9,,Manesar Municipal Corporation,,local_body,"Urban local body governing Manesar, Haryana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+122,263,,Shimla Municipal Corporation,,local_body,"Urban local body governing Shimla, Himachal Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+123,10,,Dharamshala Municipal Corporation,,local_body,"Urban local body governing Dharamshala, Himachal Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+124,10,,Palampur Municipal Corporation,,local_body,"Urban local body governing Palampur, Himachal Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+125,265,,Solan Municipal Corporation,,local_body,"Urban local body governing Solan, Himachal Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+126,262,,Mandi Municipal Corporation,,local_body,"Urban local body governing Mandi, Himachal Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+127,794,,Srinagar Municipal Corporation,,local_body,"Urban local body governing Srinagar, Jammu and Kashmir",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+128,784,,Jammu Municipal Corporation,,local_body,"Urban local body governing Jammu, Jammu and Kashmir",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+129,270,,Dhanbad Municipal Corporation,,local_body,"Urban local body governing Dhanbad, Jharkhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+130,286,,Ranchi Municipal Corporation,,local_body,"Urban local body governing Ranchi, Jharkhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+131,269,,Deoghar Municipal Corporation,,local_body,"Urban local body governing Deoghar, Jharkhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+132,11,,Adityapur Municipal Corporation,,local_body,"Urban local body governing Adityapur, Jharkhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+133,277,,Hazaribagh Municipal Corporation,,local_body,"Urban local body governing Hazaribagh, Jharkhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+134,11,,Medininagar Municipal Corporation,,local_body,"Urban local body governing Medininagar, Jharkhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+135,274,,Giridih Municipal Corporation,,local_body,"Urban local body governing Giridih, Jharkhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+136,314,,Greater Mysuru City Corporation,,local_body,"Urban local body governing Mysuru, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+137,12,,Mangaluru City Corporation,,local_body,"Urban local body governing Mangaluru, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+138,295,,Belagavi City Corporation,,local_body,"Urban local body governing Belagavi, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+139,307,,Kalaburagi City Corporation,,local_body,"Urban local body governing Kalaburagi, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+140,12,,Hubballi City Corporation,,local_body,"Urban local body governing Hubli, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+141,304,,Davanagere City Corporation,,local_body,"Urban local body governing Davanagere, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+142,296,,Ballari City Corporation,,local_body,"Urban local body governing Ballari, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+143,298,,Vijayapura City Corporation,,local_body,"Urban local body governing Vijayapura, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+144,316,,Shivamogga City Corporation,,local_body,"Urban local body governing Shivamogga, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+145,12,,Tumakuru City Corporation,,local_body,"Urban local body governing Tumkur, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+146,297,,Bidar City Corporation,,local_body,"Urban local body governing Bidar, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+147,333,,Thiruvananthapuram Municipal Corporation,,local_body,"Urban local body governing Thiruvananthapuram, Kerala",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+148,329,,Kozhikode Municipal Corporation,,local_body,"Urban local body governing Kozhikode, Kerala",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+149,13,,Kochi Municipal Corporation,,local_body,"Urban local body governing Kochi, Kerala",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+150,327,,Kollam Municipal Corporation,,local_body,"Urban local body governing Kollam, Kerala",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+151,334,,Thrissur Municipal Corporation,,local_body,"Urban local body governing Thrissur, Kerala",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+152,325,,Kannur Municipal Corporation,,local_body,"Urban local body governing Kannur, Kerala",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+153,349,,Indore Municipal Corporation,,local_body,"Urban local body governing Indore, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+154,336,,Bhopal Municipal Corporation,,local_body,"Urban local body governing Bhopal, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+155,357,,Jabalpur Municipal Corporation,,local_body,"Urban local body governing Jabalpur, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+156,344,,Gwalior Municipal Corporation,,local_body,"Urban local body governing Gwalior, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+157,384,,Ujjain Municipal Corporation,,local_body,"Urban local body governing Ujjain, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+158,375,,Sagar Municipal Corporation,,local_body,"Urban local body governing Sagar, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+159,352,,Burhanpur Municipal Corporation,,local_body,"Urban local body governing Burhanpur, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+160,386,,Dewas Municipal Corporation,,local_body,"Urban local body governing Dewas, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+161,372,,Satna Municipal Corporation,,local_body,"Urban local body governing Satna, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+162,389,,Ratlam Municipal Corporation,,local_body,"Urban local body governing Ratlam, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+163,355,,Khandwa Municipal Corporation,,local_body,"Urban local body governing Khandwa, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+164,361,,Katni Municipal Corporation,,local_body,"Urban local body governing Katni, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+165,369,,Rewa Municipal Corporation,,local_body,"Urban local body governing Rewa, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+166,341,,Morena Municipal Corporation,,local_body,"Urban local body governing Morena, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+167,374,,Singrauli Municipal Corporation,,local_body,"Urban local body governing Singrauli, Madhya Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+168,15,,Brihanmumbai Municipal Corporation,,local_body,"Urban local body governing Mumbai, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+169,416,,Pune Municipal Corporation,,local_body,"Urban local body governing Pune, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+170,409,,Nagpur Municipal Corporation,,local_body,"Urban local body governing Nagpur, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+171,412,,Nashik Municipal Corporation,,local_body,"Urban local body governing Nashik, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+172,423,,Thane Municipal Corporation,,local_body,"Urban local body governing Thane, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+173,15,,Pimpri Chinchwad Municipal Corporation,,local_body,"Urban local body governing Pimpri-Chinchwad, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+174,15,,Kalyan-Dombivli Municipal Corporation,,local_body,"Urban local body governing Kalyan-Dombivli, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+175,15,,Vasai-Virar City Municipal Corporation,,local_body,"Urban local body governing Vasai-Virar, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+176,394,,Aurangabad Municipal Corporation,,local_body,"Urban local body governing Aurangabad, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+177,15,,Navi Mumbai Municipal Corporation,,local_body,"Urban local body governing Navi Mumbai, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+178,422,,Solapur Municipal Corporation,,local_body,"Urban local body governing Solapur, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+179,15,,Mira-Bhayandar Municipal Corporation,,local_body,"Urban local body governing Mira-Bhayandar, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+180,15,,Bhiwandi-Nizampur Municipal Corporation,,local_body,"Urban local body governing Bhiwandi, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+181,393,,Amravati Municipal Corporation,,local_body,"Urban local body governing Amravati, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+182,410,,Nanded-Waghala Municipal Corporation,,local_body,"Urban local body governing Nanded, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+183,405,,Kolhapur Municipal Corporation,,local_body,"Urban local body governing Kolhapur, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+184,392,,Akola Municipal Corporation,,local_body,"Urban local body governing Akola, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+185,15,,Panvel Municipal Corporation,,local_body,"Urban local body governing Panvel, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+186,15,,Ulhasnagar Municipal Corporation,,local_body,"Urban local body governing Ulhasnagar, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+187,419,,Sangali-Miraj-Kupwad Municipal Corporation,,local_body,"Urban local body governing Sangli, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+188,15,,Malegaon Municipal Corporation,,local_body,"Urban local body governing Malegaon, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+189,403,,Jalgaon Municipal Corporation,,local_body,"Urban local body governing Jalgaon, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+190,406,,Latur Municipal Corporation,,local_body,"Urban local body governing Latur, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+191,399,,Dhule Municipal Corporation,,local_body,"Urban local body governing Dhule, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+192,398,,Chandrapur Municipal Corporation,,local_body,"Urban local body governing Chandrapur, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+193,415,,Parbhani Municipal Corporation,,local_body,"Urban local body governing Parbhani, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+194,404,,Jalna Municipal Corporation,,local_body,"Urban local body governing Jalna, Maharashtra",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+195,16,,Imphal Municipal Corporation,,local_body,"Urban local body governing Imphal, Manipur",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+196,455,,Aizawl Municipal Corporation,,local_body,"Urban local body governing Aizawl, Mizoram",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+197,20,,Berhampur Municipal Corporation,,local_body,"Urban local body governing Berhampur, Odisha",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+198,20,,Bhubaneswar Municipal Corporation,,local_body,"Urban local body governing Bhubaneswar, Odisha",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+199,489,,Cuttack Municipal Corporation,,local_body,"Urban local body governing Cuttack, Odisha",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+200,20,,Rourkela Municipal Corporation,,local_body,"Urban local body governing Rourkela, Odisha",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+201,510,,Sambalpur Municipal Corporation,,local_body,"Urban local body governing Sambalpur, Odisha",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+202,508,,Puri Municipal Corporation,,local_body,"Urban local body governing Puri, Odisha",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+203,524,,Ludhiana Municipal Corporation,,local_body,"Urban local body governing Ludhiana, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+204,513,,Amritsar Municipal Corporation,,local_body,"Urban local body governing Amritsar, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+205,522,,Jalandhar Municipal Corporation,,local_body,"Urban local body governing Jalandhar, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+206,530,,Patiala Municipal Corporation,,local_body,"Urban local body governing Patiala, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+207,21,,Phagwara Municipal Corporation,,local_body,"Urban local body governing Phagwara, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+208,515,,Bathinda Municipal Corporation,,local_body,"Urban local body governing Bathinda, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+209,21,,Batala Municipal Corporation,,local_body,"Urban local body governing Batala, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+210,21,,Mohali Municipal Corporation,,local_body,"Urban local body governing Mohali, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+211,521,,Hoshiarpur Municipal Corporation,,local_body,"Urban local body governing Hoshiarpur, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+212,527,,Moga Municipal Corporation,,local_body,"Urban local body governing Moga, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+213,529,,Pathankot Municipal Corporation,,local_body,"Urban local body governing Pathankot, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+214,21,,Abohar Municipal Corporation,,local_body,"Urban local body governing Abohar, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+215,523,,Kapurthala Municipal Corporation,,local_body,"Urban local body governing Kapurthala, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+216,514,,Barnala Municipal Corporation,,local_body,"Urban local body governing Barnala, Punjab",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+217,555,,Jaipur Municipal Corporation,,local_body,"Urban local body governing Jaipur, Rajasthan",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+218,560,,Jodhpur Municipal Corporation,,local_body,"Urban local body governing Jodhpur, Rajasthan",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+219,563,,Kota Municipal Corporation,,local_body,"Urban local body governing Kota, Rajasthan",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+220,544,,Bhilwara Municipal Corporation,,local_body,"Urban local body governing Bhilwara, Rajasthan",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+221,545,,Bikaner Municipal Corporation,,local_body,"Urban local body governing Bikaner, Rajasthan",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+222,536,,Ajmer Municipal Corporation,,local_body,"Urban local body governing Ajmer, Rajasthan",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+223,537,,Alwar Municipal Corporation,,local_body,"Urban local body governing Alwar, Rajasthan",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+224,576,,Udaipur Municipal Corporation,,local_body,"Urban local body governing Udaipur, Rajasthan",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+225,543,,Bharatpur Municipal Corporation,,local_body,"Urban local body governing Bharatpur, Rajasthan",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+226,577,,Gangtok Municipal Corporation,,local_body,"Urban local body governing Gangtok, Sikkim",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+227,585,,Greater Chennai Corporation,,local_body,"Urban local body governing Chennai, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+228,586,,Coimbatore Municipal Corporation,,local_body,"Urban local body governing Coimbatore, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+229,596,,Madurai Municipal Corporation,,local_body,"Urban local body governing Madurai, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+230,611,,Tiruchirappalli City Municipal Corporation,,local_body,"Urban local body governing Tiruchirappalli, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+231,24,,Tambaram City Municipal Corporation,,local_body,"Urban local body governing Tambaram, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+232,614,,Tiruppur City Municipal Corporation,,local_body,"Urban local body governing Tiruppur, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+233,605,,Salem City Municipal Corporation,,local_body,"Urban local body governing Salem, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+234,612,,Tirunelveli Municipal Corporation,,local_body,"Urban local body governing Tirunelveli, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+235,618,,Vellore Municipal Corporation,,local_body,"Urban local body governing Vellore, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+236,24,,Avadi Municipal Corporation,,local_body,"Urban local body governing Avadi, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+237,590,,Erode City Municipal Corporation,,local_body,"Urban local body governing Erode, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+238,610,,Thoothukkudi City Municipal Corporation,,local_body,"Urban local body governing Thoothukudi, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+239,608,,Thanjavur Municipal Corporation,,local_body,"Urban local body governing Thanjavur, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+240,589,,Dindigul Municipal Corporation,,local_body,"Urban local body governing Dindigul, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+241,24,,Nagercoil Municipal Corporation,,local_body,"Urban local body governing Nagercoil, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+242,587,,Cuddalore Municipal Corporation,,local_body,"Urban local body governing Cuddalore, Tamil Nadu",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+243,646,,Greater Hyderabad Municipal Corporation,,local_body,"Urban local body governing Hyderabad, Telangana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+244,637,,Greater Warangal Municipal Corporation,,local_body,"Urban local body governing Warangal, Telangana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+245,640,,Khammam Municipal Corporation,,local_body,"Urban local body governing Khammam, Telangana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+246,630,,Karimnagar Municipal Corporation,,local_body,"Urban local body governing Karimnagar, Telangana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+247,625,,Nizamabad Municipal Corporation,,local_body,"Urban local body governing Nizamabad, Telangana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+248,25,,Ramagundam Municipal Corporation,,local_body,"Urban local body governing Ramagundam, Telangana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+249,650,,Mahabubnagar Municipal Corporation,,local_body,"Urban local body governing Mahabubnagar, Telangana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+250,643,,Nalgonda Municipal Corporation,,local_body,"Urban local body governing Nalgonda, Telangana",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+251,26,,Agartala Municipal Corporation,,local_body,"Urban local body governing Agartala, Tripura",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+252,723,,Lucknow Municipal Corporation,,local_body,"Urban local body governing Lucknow, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+253,28,,Kanpur Municipal Corporation,,local_body,"Urban local body governing Kanpur, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+254,675,,Agra Municipal Corporation,,local_body,"Urban local body governing Agra, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+255,704,,Ghaziabad Municipal Corporation,,local_body,"Urban local body governing Ghaziabad, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+256,749,,Varanasi Municipal Corporation,,local_body,"Urban local body governing Varanasi, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+257,729,,Meerut Municipal Corporation,,local_body,"Urban local body governing Meerut, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+258,735,,Prayagraj Municipal Corporation,,local_body,"Urban local body governing Prayagraj, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+259,676,,Aligarh Municipal Corporation,,local_body,"Urban local body governing Aligarh, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+260,690,,Bareilly Municipal Corporation,,local_body,"Urban local body governing Bareilly, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+261,681,,Ayodhya Municipal Corporation,,local_body,"Urban local body governing Ayodhya, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+262,731,,Moradabad Municipal Corporation,,local_body,"Urban local body governing Moradabad, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+263,738,,Saharanpur Municipal Corporation,,local_body,"Urban local body governing Saharanpur, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+264,707,,Gorakhpur Municipal Corporation,,local_body,"Urban local body governing Gorakhpur, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+265,702,,Firozabad Municipal Corporation,,local_body,"Urban local body governing Firozabad, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+266,714,,Jhansi Municipal Corporation,,local_body,"Urban local body governing Jhansi, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+267,741,,Shahjahanpur Municipal Corporation,,local_body,"Urban local body governing Shahjahanpur, Uttar Pradesh",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+268,666,,Dehradun Municipal Corporation,,local_body,"Urban local body governing Dehradun, Uttarakhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+269,27,,Haldwani Municipal Corporation,,local_body,"Urban local body governing Haldwani, Uttarakhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+270,667,,Haridwar Municipal Corporation,,local_body,"Urban local body governing Haridwar, Uttarakhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+271,27,,Rudrapur Municipal Corporation,,local_body,"Urban local body governing Rudrapur, Uttarakhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+272,27,,Kashipur Municipal Corporation,,local_body,"Urban local body governing Kashipur, Uttarakhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+273,27,,Roorkee Municipal Corporation,,local_body,"Urban local body governing Roorkee, Uttarakhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+274,27,,Rishikesh Municipal Corporation,,local_body,"Urban local body governing Rishikesh, Uttarakhand",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+275,763,,Kolkata Municipal Corporation,,local_body,"Urban local body governing Kolkata, West Bengal",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+276,759,,Howrah Municipal Corporation,,local_body,"Urban local body governing Howrah, West Bengal",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+277,29,,Durgapur Municipal Corporation,,local_body,"Urban local body governing Durgapur, West Bengal",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+278,29,,Asansol Municipal Corporation,,local_body,"Urban local body governing Asansol, West Bengal",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+279,29,,Bidhannagar Municipal Corporation,,local_body,"Urban local body governing Bidhannagar, West Bengal",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+280,29,,Siliguri Municipal Corporation,,local_body,"Urban local body governing Siliguri, West Bengal",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+281,29,,Chandernagore Municipal Corporation,,local_body,"Urban local body governing Chandannagar, West Bengal",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India,0.80,collected,2026-06-26
+282,292,,Bruhat Bengaluru Mahanagara Palike,,local_body,"Urban local body governing Bengaluru, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+283,305,,Hubballi-Dharwad Municipal Corporation,,local_body,"Urban local body governing Hubballi-Dharwad, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+284,314,,Mysuru Municipal Corporation,,local_body,"Urban local body governing Mysuru, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+285,303,,Mangaluru City Corporation,,local_body,"Urban local body governing Mangaluru, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+286,295,,Belagavi City Corporation,,local_body,"Urban local body governing Belagavi, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+287,307,,Kalaburagi City Corporation,,local_body,"Urban local body governing Kalaburagi, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+288,304,,Davanagere-Harihar Municipal Corporation,,local_body,"Urban local body governing Davanagere, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+289,296,,Ballari City Corporation,,local_body,"Urban local body governing Ballari, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+290,298,,Vijayapura City Corporation,,local_body,"Urban local body governing Vijayapura, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+291,317,,Tumakuru City Corporation,,local_body,"Urban local body governing Tumakuru, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+292,316,,Shivamogga City Corporation,,local_body,"Urban local body governing Shivamogga, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26
+293,315,,Raichur City Municipal Corporation,,local_body,"Urban local body governing Raichur, Karnataka",,https://en.wikipedia.org/wiki/List_of_municipal_corporations_in_India + Karnataka DMA (dma.karnataka.gov.in),0.80,collected,2026-06-26

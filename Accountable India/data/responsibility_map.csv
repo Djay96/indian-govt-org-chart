@@ -1,0 +1,15 @@
+id,topic_id,body_id,position_id,jurisdiction_level,priority,notes,source_url
+1,11,5,7,union,1,"Railways is a Union subject handled by the Ministry of Railways",https://www.indianrailways.gov.in
+2,7,6,8,union,2,"Higher education / central policy; school education is largely a State subject",https://www.education.gov.in
+3,5,2,4,state,1,"Police is primarily a State subject; MHA coordinates at the Union level",https://www.mha.gov.in
+4,12,1,3,union,2,"General grievances escalate via CPGRAMS; PMO at the top of the chain",https://pgportal.gov.in
+5,1,,,municipal_corporation,1,"Water supply is typically delivered by Urban Local Bodies / state water boards",
+6,2,,,municipal_corporation,1,"City roads via ULB; highways via MoRTH/state PWD",
+7,3,,,state,1,"Electricity distribution via state DISCOMs",
+8,4,,,municipal_corporation,1,"Solid waste handled by Urban Local Bodies",
+9,8,,,municipal_corporation,1,"Drainage handled by Urban Local Bodies",
+10,9,,,municipal_corporation,1,"Street lighting handled by Urban Local Bodies",
+11,15,38,,union,1,"Elections and voter registration handled by the Election Commission of India",https://www.eci.gov.in
+12,16,37,,union,1,"Courts and justice - Supreme Court at the apex; High Courts at state level",https://www.sci.gov.in
+13,17,4,6,union,1,"Income tax and central taxes handled by the Ministry of Finance",https://www.finmin.nic.in
+14,6,8,11,union,2,"Public health - Union policy via MoHFW; delivery largely by State health departments",https://www.mohfw.gov.in

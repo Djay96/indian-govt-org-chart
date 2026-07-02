@@ -13,5 +13,8 @@
   },
   "devDependencies": {
     "c8": "^11.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.61.1"
   }
 }

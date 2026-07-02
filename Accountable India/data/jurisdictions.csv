@@ -1,0 +1,823 @@
+id,name,level,parent_id,state_code,lgd_code,region,official_website,source_url,confidence,data_status,last_verified_at
+1,India (Union Government),union,,IN,,National,https://www.india.gov.in,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.90,verified,2026-06-26
+2,Andhra Pradesh,state,1,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+3,Arunachal Pradesh,state,1,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+4,Assam,state,1,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+5,Bihar,state,1,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+6,Chhattisgarh,state,1,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+7,Goa,state,1,IN-GA,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+8,Gujarat,state,1,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+9,Haryana,state,1,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+10,Himachal Pradesh,state,1,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+11,Jharkhand,state,1,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+12,Karnataka,state,1,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+13,Kerala,state,1,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+14,Madhya Pradesh,state,1,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+15,Maharashtra,state,1,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+16,Manipur,state,1,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+17,Meghalaya,state,1,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+18,Mizoram,state,1,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+19,Nagaland,state,1,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+20,Odisha,state,1,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+21,Punjab,state,1,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+22,Rajasthan,state,1,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+23,Sikkim,state,1,IN-SK,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+24,Tamil Nadu,state,1,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+25,Telangana,state,1,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+26,Tripura,state,1,IN-TR,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+27,Uttarakhand,state,1,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+28,Uttar Pradesh,state,1,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+29,West Bengal,state,1,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+30,Delhi (NCT),ut,1,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+31,Jammu and Kashmir,ut,1,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+32,Puducherry,ut,1,IN-PY,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
+33,Andaman and Nicobar Islands,ut,1,IN-AN,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
+34,Ladakh,ut,1,IN-LA,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
+35,Chandigarh,ut,1,IN-CH,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
+36,Dadra and Nagar Haveli and Daman and Diu,ut,1,IN-DH,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
+37,Lakshadweep,ut,1,IN-LD,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
+38,Srikakulam,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+39,Parvathipuram Manyam,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+40,Vizianagaram,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+41,Visakhapatnam,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+42,Alluri Sitharama Raju,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+43,Anakapalli,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+44,Kakinada,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+45,East Godavari,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+46,Dr. B. R. Ambedkar Konaseema,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+47,Eluru,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+48,West Godavari,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+49,NTR,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+50,Krishna,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+51,Palnadu,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+52,Guntur,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+53,Bapatla,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+54,Prakasam,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+55,Sri Potti Sriramulu Nellore,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+56,Kurnool,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+57,Nandyal,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+58,Ananthapuramu,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+59,Sri Sathya Sai,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+60,YSR Kadapa,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+61,Annamayya,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+62,Tirupati,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+63,Chittoor,district,2,IN-AP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+64,Tawang,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+65,West Kameng,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+66,East Kameng,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+67,Pakke-Kessang,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+68,Kurung Kumey,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+69,Papum Pare,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+70,Kra Daadi,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+71,Lower Subansiri,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+72,Kamle,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+73,Keyi Panyor,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+74,Upper Subansiri,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+75,Shi-Yomi,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+76,West Siang,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+77,Siang,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+78,Lower Siang,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+79,Lepa-Rada,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+80,Upper Siang,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+81,East Siang,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+82,Dibang Valley,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+83,Lower Dibang Valley,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+84,Lohit,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+85,Anjaw,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+86,Namsai,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+87,Changlang,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+88,Tirap,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+89,Longding,district,3,IN-AR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+90,Baksa,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+91,Bajali,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+92,Barpeta,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+93,Biswanath,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+94,Bongaigaon,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+95,Cachar,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+96,Charaideo,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+97,Chirang,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+98,Darrang,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+99,Dhemaji,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+100,Dhubri,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+101,Dibrugarh,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+102,Dima Hasao,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+103,Goalpara,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+104,Golaghat,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+105,Hailakandi,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+106,Hojai,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+107,Jorhat,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+108,Kamrup Metropolitan,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+109,Kamrup,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+110,Karbi Anglong,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+111,Sribhumi,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+112,Kokrajhar,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+113,Lakhimpur,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+114,Majuli,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+115,Morigaon,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+116,Nagaon,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+117,Nalbari,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+118,Sivasagar,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+119,Sonitpur,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+120,South Salmara-Mankachar,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+121,Tamulpur,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+122,Tinsukia,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+123,Udalguri,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+124,West Karbi Anglong,district,4,IN-AS,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+125,Araria,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+126,Arwal,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+127,Aurangabad,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+128,Banka,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+129,Begusarai,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+130,Bhagalpur,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+131,Bhojpur,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+132,Buxar,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+133,Darbhanga,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+134,East Champaran,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+135,Gaya,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+136,Gopalganj,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+137,Jamui,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+138,Jehanabad,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+139,Khagaria,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+140,Kishanganj,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+141,Kaimur,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+142,Katihar,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+143,Lakhisarai,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+144,Madhubani,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+145,Munger,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+146,Madhepura,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+147,Muzaffarpur,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+148,Nalanda,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+149,Nawada,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+150,Patna,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+151,Purnia,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+152,Rohtas,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+153,Saharsa,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+154,Samastipur,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+155,Sheohar,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+156,Sheikhpura,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+157,Saran,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+158,Sitamarhi,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+159,Supaul,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+160,Siwan,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+161,Vaishali,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+162,West Champaran,district,5,IN-BR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+163,Balod,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+164,Baloda Bazar-Bhatapara,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+165,Balrampur,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+166,Bastar,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+167,Bemetara,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+168,Bijapur,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+169,Bilaspur,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+170,Dantewada,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+171,Dhamtari,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+172,Durg,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+173,Gariaband,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+174,Gaurella-Pendra-Marwahi,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+175,Janjgir-Champa,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+176,Jashpur,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+177,Kabirdham,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+178,Kanker,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+179,Kondagaon,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+180,Khairagarh-Chhuikhadan-Gandai,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+181,Korba,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+182,Koriya,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+183,Mahasamund,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+184,Manendragarh-Chirmiri-Bharatpur,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+185,Mohla-Manpur-Ambagarh Chowki,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+186,Mungeli,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+187,Narayanpur,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+188,Raigarh,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+189,Raipur,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+190,Rajnandgaon,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+191,Sarangarh-Bilaigarh,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+192,Sakti,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+193,Sukma,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+194,Surajpur,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+195,Surguja,district,6,IN-CT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+196,North Goa,district,7,IN-GA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+197,South Goa,district,7,IN-GA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+198,Ahmedabad,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+199,Amreli,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+200,Anand,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+201,Aravalli,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+202,Banaskantha,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+203,Bharuch,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+204,Bhavnagar,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+205,Botad,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+206,Chhota Udaipur,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+207,Dahod,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+208,Dang,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+209,Devbhoomi Dwarka,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+210,Gandhinagar,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+211,Gir Somnath,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+212,Jamnagar,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+213,Junagadh,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+214,Kheda,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+215,Kutch,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+216,Mahisagar,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+217,Mehsana,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+218,Morbi,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+219,Narmada,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+220,Navsari,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+221,Panchmahal,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+222,Patan,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+223,Porbandar,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+224,Rajkot,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+225,Sabarkantha,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+226,Surat,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+227,Surendranagar,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+228,Tapi,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+229,Vadodara,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+230,Valsad,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+231,Vav-Tharad,district,8,IN-GJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+232,Ambala,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+233,Kurukshetra,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+234,Panchkula,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+235,Yamunanagar,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+236,Faridabad,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+237,Nuh,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+238,Palwal,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+239,Gurugram,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+240,Mahendragarh,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+241,Rewari,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+242,Hisar,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+243,Fatehabad,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+244,Jind,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+245,Sirsa,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+246,Karnal,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+247,Kaithal,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+248,Panipat,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+249,Rohtak,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+250,Bhiwani,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+251,Charkhi Dadri,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+252,Jhajjar,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+253,Sonipat,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+254,Hansi,district,9,IN-HR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+255,Bilaspur,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+256,Chamba,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+257,Hamirpur,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+258,Kangra,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+259,Kinnaur,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+260,Kullu,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+261,Lahaul and Spiti,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+262,Mandi,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+263,Shimla,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+264,Sirmaur,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+265,Solan,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+266,Una,district,10,IN-HP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+267,Bokaro,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+268,Chatra,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+269,Deoghar,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+270,Dhanbad,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+271,Dumka,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+272,East Singhbhum,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+273,Garhwa,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+274,Giridih,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+275,Godda,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+276,Gumla,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+277,Hazaribagh,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+278,Jamtara,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+279,Khunti,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+280,Koderma,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+281,Latehar,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+282,Lohardaga,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+283,Pakur,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+284,Palamu,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+285,Ramgarh,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+286,Ranchi,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+287,Sahibganj,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+288,Saraikela-Kharsawan,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+289,Simdega,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+290,West Singhbhum,district,11,IN-JH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+291,Bagalkote,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+292,Bengaluru Urban,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+293,Bengaluru North,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+294,Bengaluru South,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+295,Belagavi,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+296,Ballari,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+297,Bidar,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+298,Vijayapura,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+299,Chamarajanagara,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+300,Chikkaballapura,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+301,Chikkamagaluru,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+302,Chitradurga,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+303,Dakshina Kannada,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+304,Davanagere,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+305,Dharwad,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+306,Gadag,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+307,Kalaburagi,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+308,Hassan,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+309,Haveri,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+310,Kodagu,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+311,Kolar,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+312,Koppal,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+313,Mandya,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+314,Mysuru,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+315,Raichur,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+316,Shivamogga,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+317,Tumakuru,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+318,Udupi,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+319,Uttara Kannada,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+320,Vijayanagara,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+321,Yadgiri,district,12,IN-KA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+322,Alappuzha,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+323,Ernakulam,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+324,Idukki,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+325,Kannur,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+326,Kasaragod,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+327,Kollam,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+328,Kottayam,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+329,Kozhikode,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+330,Malappuram,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+331,Palakkad,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+332,Pathanamthitta,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+333,Thiruvananthapuram,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+334,Thrissur,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+335,Wayanad,district,13,IN-KL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+336,Bhopal,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+337,Raisen,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+338,Rajgarh,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+339,Sehore,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+340,Vidisha,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+341,Morena,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+342,Bhind,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+343,Sheopur,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+344,Gwalior,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+345,Ashoknagar,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+346,Datia,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+347,Guna,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+348,Shivpuri,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+349,Indore,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+350,Alirajpur,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+351,Barwani,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+352,Burhanpur,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+353,Dhar,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+354,Jhabua,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+355,Khandwa,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+356,Khargone,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+357,Jabalpur,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+358,Balaghat,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+359,Chhindwara,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+360,Dindori,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+361,Katni,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+362,Mandla,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+363,Narsinghpur,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+364,Pandhurna,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+365,Seoni,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+366,Narmadapuram,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+367,Betul,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+368,Harda,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+369,Rewa,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+370,Maihar,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+371,Mauganj,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+372,Satna,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+373,Sidhi,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+374,Singrauli,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+375,Sagar,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+376,Chhatarpur,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+377,Damoh,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+378,Niwari,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+379,Panna,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+380,Tikamgarh,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+381,Shahdol,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+382,Anuppur,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+383,Umaria,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+384,Ujjain,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+385,Agar Malwa,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+386,Dewas,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+387,Mandsaur,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+388,Neemuch,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+389,Ratlam,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+390,Shajapur,district,14,IN-MP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+391,Ahmednagar,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+392,Akola,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+393,Amravati,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+394,Aurangabad,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+395,Beed,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+396,Bhandara,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+397,Buldhana,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+398,Chandrapur,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+399,Dhule,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+400,Gadchiroli,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+401,Gondia,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+402,Hingoli,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+403,Jalgaon,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+404,Jalna,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+405,Kolhapur,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+406,Latur,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+407,Mumbai City,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+408,Mumbai Suburban,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+409,Nagpur,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+410,Nanded,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+411,Nandurbar,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+412,Nashik,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+413,Osmanabad,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+414,Palghar,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+415,Parbhani,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+416,Pune,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+417,Raigad,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+418,Ratnagiri,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+419,Sangli,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+420,Satara,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+421,Sindhudurg,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+422,Solapur,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+423,Thane,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+424,Wardha,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+425,Washim,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+426,Yavatmal,district,15,IN-MH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+427,Bishnupur,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+428,Chandel,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+429,Churachandpur,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+430,Imphal East,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+431,Imphal West,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+432,Jiribam,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+433,Kakching,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+434,Kamjong,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+435,Kangpokpi,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+436,Noney,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+437,Pherzawl,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+438,Senapati,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+439,Tamenglong,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+440,Tengnoupal,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+441,Thoubal,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+442,Ukhrul,district,16,IN-MN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+443,North Garo Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+444,East Garo Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+445,South Garo Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+446,West Garo Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+447,South West Garo Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+448,West Jaintia Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+449,East Jaintia Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+450,East Khasi Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+451,West Khasi Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+452,South West Khasi Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+453,Eastern West Khasi Hills,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+454,Ri-Bhoi,district,17,IN-ML,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+455,Aizawl,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+456,Champhai,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+457,Hnahthial,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+458,Khawzawl,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+459,Kolasib,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+460,Lawngtlai,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+461,Lunglei,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+462,Mamit,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+463,Saiha,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+464,Saitual,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+465,Serchhip,district,18,IN-MZ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+466,Chumoukedima,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+467,Dimapur,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+468,Kiphire,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+469,Kohima,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+470,Longleng,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+471,Meluri,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+472,Mokokchung,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+473,Mon,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+474,Niuland,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+475,Noklak,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+476,Peren,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+477,Phek,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+478,Shamator,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+479,Tuensang,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+480,Tseminyu,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+481,Wokha,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+482,Zunheboto,district,19,IN-NL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+483,Angul,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+484,Balangir,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+485,Balasore,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+486,Bargarh,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+487,Bhadrak,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+488,Boudh,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+489,Cuttack,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+490,Deogarh,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+491,Dhenkanal,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+492,Gajapati,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+493,Ganjam,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+494,Jagatsinghpur,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+495,Jajpur,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+496,Jharsuguda,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+497,Kalahandi,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+498,Kandhamal,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+499,Kendrapara,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+500,Kendujhar,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+501,Khordha,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+502,Koraput,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+503,Malkangiri,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+504,Mayurbhanj,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+505,Nabarangpur,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+506,Nayagarh,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+507,Nuapada,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+508,Puri,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+509,Rayagada,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+510,Sambalpur,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+511,Subarnapur,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+512,Sundargarh,district,20,IN-OR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+513,Amritsar,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+514,Barnala,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+515,Bathinda,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+516,Faridkot,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+517,Fatehgarh Sahib,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+518,Firozpur,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+519,Fazilka,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+520,Gurdaspur,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+521,Hoshiarpur,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+522,Jalandhar,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+523,Kapurthala,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+524,Ludhiana,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+525,Malerkotla,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+526,Mansa,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+527,Moga,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+528,Sri Muktsar Sahib,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+529,Pathankot,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+530,Patiala,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+531,Rupnagar,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+532,Sahibzada Ajit Singh Nagar,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+533,Sangrur,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+534,Shaheed Bhagat Singh Nagar,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+535,Tarn Taran,district,21,IN-PB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+536,Ajmer,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+537,Alwar,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+538,Balotra,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+539,Banswara,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+540,Baran,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+541,Barmer,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+542,Beawar,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+543,Bharatpur,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+544,Bhilwara,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+545,Bikaner,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+546,Bundi,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+547,Chittorgarh,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+548,Churu,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+549,Dausa,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+550,Deeg,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+551,Didwana-Kuchaman,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+552,Dholpur,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+553,Dungarpur,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+554,Hanumangarh,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+555,Jaipur,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+556,Jaisalmer,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+557,Jalore,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+558,Jhalawar,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+559,Jhunjhunu,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+560,Jodhpur,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+561,Karauli,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+562,Khairthal-Tijara,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+563,Kota,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+564,Kotputli-Behror,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+565,Nagaur,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+566,Pali,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+567,Phalodi,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+568,Pratapgarh,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+569,Rajsamand,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+570,Salumbar,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+571,Sawai Madhopur,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+572,Sikar,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+573,Sirohi,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+574,Sri Ganganagar,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+575,Tonk,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+576,Udaipur,district,22,IN-RJ,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+577,Gangtok,district,23,IN-SK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+578,Mangan,district,23,IN-SK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+579,Pakyong,district,23,IN-SK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+580,Soreng,district,23,IN-SK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+581,Namchi,district,23,IN-SK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+582,Gyalshing,district,23,IN-SK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+583,Ariyalur,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+584,Chengalpattu,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+585,Chennai,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+586,Coimbatore,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+587,Cuddalore,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+588,Dharmapuri,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+589,Dindigul,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+590,Erode,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+591,Kallakurichi,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+592,Kancheepuram,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+593,Kanyakumari,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+594,Karur,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+595,Krishnagiri,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+596,Madurai,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+597,Mayiladuthurai,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+598,Nagapattinam,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+599,Namakkal,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+600,Nilgiris,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+601,Perambalur,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+602,Pudukkottai,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+603,Ramanathapuram,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+604,Ranipet,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+605,Salem,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+606,Sivaganga,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+607,Tenkasi,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+608,Thanjavur,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+609,Theni,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+610,Thoothukudi,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+611,Tiruchirappalli,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+612,Tirunelveli,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+613,Tirupathur,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+614,Tiruppur,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+615,Tiruvallur,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+616,Tiruvannamalai,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+617,Tiruvarur,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+618,Vellore,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+619,Viluppuram,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+620,Virudhunagar,district,24,IN-TN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+621,Adilabad,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+622,Kumuram Bheem Asifabad,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+623,Mancherial,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+624,Nirmal,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+625,Nizamabad,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+626,Jagtial,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+627,Peddapalli,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+628,Kamareddy,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+629,Rajanna Sircilla,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+630,Karimnagar,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+631,Jayashankar Bhupalpally,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+632,Sangareddy,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+633,Medak,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+634,Siddipet,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+635,Jangaon,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+636,Hanumakonda,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+637,Warangal,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+638,Mulugu,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+639,Bhadradri Kothagudem,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+640,Khammam,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+641,Mahabubabad,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+642,Suryapet,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+643,Nalgonda,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+644,Yadadri Bhuvanagiri,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+645,Medchal-Malkajgiri,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+646,Hyderabad,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+647,Ranga Reddy,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+648,Vikarabad,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+649,Narayanpet,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+650,Mahabubnagar,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+651,Nagarkurnool,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+652,Wanaparthy,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+653,Jogulamba Gadwal,district,25,IN-TG,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+654,Dhalai,district,26,IN-TR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+655,Gomati,district,26,IN-TR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+656,Khowai,district,26,IN-TR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+657,North Tripura,district,26,IN-TR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+658,Sipahijala,district,26,IN-TR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+659,South Tripura,district,26,IN-TR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+660,Unakoti,district,26,IN-TR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+661,West Tripura,district,26,IN-TR,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+662,Almora,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+663,Bageshwar,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+664,Chamoli,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+665,Champawat,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+666,Dehradun,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+667,Haridwar,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+668,Nainital,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+669,Pauri Garhwal,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+670,Pithoragarh,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+671,Rudraprayag,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+672,Tehri Garhwal,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+673,Udham Singh Nagar,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+674,Uttarkashi,district,27,IN-UT,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+675,Agra,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+676,Aligarh,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+677,Ambedkar Nagar,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+678,Amethi,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+679,Amroha,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+680,Auraiya,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+681,Ayodhya,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+682,Azamgarh,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+683,Budaun,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+684,Bagpat,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+685,Bahraich,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+686,Ballia,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+687,Balrampur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+688,Banda,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+689,Barabanki,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+690,Bareilly,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+691,Basti,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+692,Bhadohi,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+693,Bijnor,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+694,Bulandshahr,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+695,Chandauli,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+696,Chitrakoot,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+697,Deoria,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+698,Etah,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+699,Etawah,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+700,Farrukhabad,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+701,Fatehpur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+702,Firozabad,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+703,Gautam Buddha Nagar,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+704,Ghaziabad,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+705,Ghazipur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+706,Gonda,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+707,Gorakhpur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+708,Hamirpur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+709,Hapur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+710,Hardoi,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+711,Hathras,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+712,Jalaun,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+713,Jaunpur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+714,Jhansi,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+715,Kannauj,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+716,Kanpur Dehat,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+717,Kanpur Nagar,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+718,Kasganj,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+719,Kaushambi,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+720,Kushinagar,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+721,Lakhimpur Kheri,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+722,Lalitpur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+723,Lucknow,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+724,Maharajganj,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+725,Mahoba,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+726,Mainpuri,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+727,Mathura,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+728,Mau,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+729,Meerut,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+730,Mirzapur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+731,Moradabad,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+732,Muzaffarnagar,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+733,Pilibhit,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+734,Pratapgarh,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+735,Prayagraj,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+736,Rae Bareli,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+737,Rampur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+738,Saharanpur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+739,Sant Kabir Nagar,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+740,Sambhal,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+741,Shahjahanpur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+742,Shamli,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+743,Shravasti,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+744,Siddharthnagar,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+745,Sitapur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+746,Sonbhadra,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+747,Sultanpur,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+748,Unnao,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+749,Varanasi,district,28,IN-UP,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+750,Alipurduar,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+751,Bankura,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+752,Paschim Bardhaman,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+753,Purba Bardhaman,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+754,Birbhum,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+755,Cooch Behar,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+756,Dakshin Dinajpur,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+757,Darjeeling,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+758,Hooghly,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+759,Howrah,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+760,Jalpaiguri,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+761,Jhargram,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+762,Kalimpong,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+763,Kolkata,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+764,Malda,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+765,Murshidabad,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+766,Nadia,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+767,North 24 Parganas,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+768,Paschim Medinipur,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+769,Purba Medinipur,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+770,Purulia,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+771,South 24 Parganas,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+772,Uttar Dinajpur,district,29,IN-WB,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+773,Central Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+774,East Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+775,New Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+776,North Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+777,North East Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+778,North West Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+779,Shahdara,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+780,South Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+781,South East Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+782,South West Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+783,West Delhi,district,30,IN-DL,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+784,Jammu,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+785,Samba,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+786,Kathua,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+787,Udhampur,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+788,Reasi,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+789,Rajouri,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+790,Poonch,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+791,Doda,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+792,Ramban,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+793,Kishtwar,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+794,Srinagar,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+795,Budgam,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+796,Anantnag,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+797,Kulgam,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+798,Pulwama,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+799,Shopian,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+800,Baramulla,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+801,Bandipora,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+802,Kupwara,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+803,Ganderbal,district,31,IN-JK,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+804,Puducherry,district,32,IN-PY,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+805,Karaikal,district,32,IN-PY,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+806,Mahe,district,32,IN-PY,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+807,Yanam,district,32,IN-PY,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+808,Nicobar,district,33,IN-AN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+809,North and Middle Andaman,district,33,IN-AN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+810,South Andaman,district,33,IN-AN,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+811,Chandigarh,district,35,IN-CH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+812,Daman,district,36,IN-DH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+813,Diu,district,36,IN-DH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+814,Dadra and Nagar Haveli,district,36,IN-DH,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+815,Leh,district,34,IN-LA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+816,Kargil,district,34,IN-LA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+817,Zanskar,district,34,IN-LA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+818,Drass,district,34,IN-LA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+819,Sham,district,34,IN-LA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+820,Nubra,district,34,IN-LA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+821,Changthang,district,34,IN-LA,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26
+822,Lakshadweep,district,37,IN-LD,,,,https://en.wikipedia.org/wiki/List_of_districts_of_India,0.85,collected,2026-06-26

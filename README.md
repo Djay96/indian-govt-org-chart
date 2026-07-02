@@ -1,40 +1,64 @@
-# Kisko Bolun UP
+# Accountability Matrix — Open Government Data for India
 
-A civic accountability tool for Uttar Pradesh. Describe a public issue and its
-exact location; the app maps it to the responsible department, shows the
-escalation chain (local office → Chief Minister), and drafts a complaint email.
+Two projects to make government accountable to citizens:
+
+| Project | Scope | Status |
+|---------|-------|--------|
+| **[Accountable India](Accountable%20India/)** | National dataset: every government office in India as an org chart | 782/785 DMs named, 35/36 Union Secretaries, all states |
+| **[Kisko Bolun UP](https://kisko-bolun-up.netlify.app)** | Live app: UP citizen complaint → responsible officer | Deployed on Netlify |
+
+---
+
+## Accountable India
+
+A comprehensive, connected dataset of **every government office in India** — Union, State/UT, District, and Local — modelled as an org chart. Takes a citizen's problem in plain language and surfaces **who is responsible** and **how to reach the entire chain of command**.
+
+### Dataset coverage (as of July 2026)
+
+| Level | Coverage |
+|-------|----------|
+| Union Council of Ministers | 73 ministers + President/VP |
+| Union bureaucracy (Secretaries) | 35/36 ministries |
+| State Governors + Chief Ministers | All 31 states/UTs |
+| State cabinets | All assembly states/UTs |
+| Chief Secretaries | All 36 states/UTs |
+| District Collectors/DMs | **782/785 (99.6%)** |
+| Superintendents of Police | **764/786 (97.2%)** |
+| Municipal Corporations | 238 corporations with Mayor + Commissioner offices |
+
+### Data model
+
+10 linked CSV tables with a PostgreSQL schema:
+- **jurisdictions** — Union → State → District → Local tree
+- **bodies** — ministries, departments, agencies
+- **positions** — offices/designations (org-chart nodes)
+- **persons** — actual people
+- **appointments** — who holds which office, over time (preserves history)
+- **contacts** — official/public emails, phones, portals
+- **topics** — citizen problem categories
+- **responsibility_map** — which office owns which topic
+- **sources** — provenance/citations for every record
+- **collection_log** — audit trail of data collection runs
+
+See [`Accountable India/`](Accountable%20India/) for the full dataset, schema, and ER diagram.
+
+---
+
+## Kisko Bolun UP
+
+A civic accountability tool for Uttar Pradesh. Describe a public issue and its location; the app maps it to the responsible department, shows the escalation chain, and drafts a complaint email.
 
 **Live:** https://kisko-bolun-up.netlify.app
 
-## How it works
+---
 
-1. `detectIssue` — keyword-scores the description into an issue type
-   (road, streetlight, sanitation, water).
-2. `detectJurisdiction` — matches the location to a jurisdiction
-   (Lucknow municipal, Lucknow rural, or a statewide fallback).
-3. The issue + jurisdiction select an accountability **chain** of officials and
-   a confidence score.
+## License
 
-The resolution logic lives once in [`assets/resolve-core.js`](assets/resolve-core.js)
-(pure functions) and is shared by the browser ([`assets/app.js`](assets/app.js))
-and the Netlify function ([`netlify/functions/resolve.js`](netlify/functions/resolve.js)).
-The dataset is [`data/accountability.json`](data/accountability.json).
+Data: [Open Data Commons Attribution License (ODC-By)](https://opendatacommons.org/licenses/by/)  
+Code: MIT
 
-## Develop
+All contacts in this dataset are **official/public channels only** — no personal mobile numbers or private emails.
 
-```bash
-npm run dev        # static server on :8888
-npm run netlify:dev # full stack incl. /api/resolve function
-```
+## Contributing
 
-## Test
-
-```bash
-npm test           # node:test suite
-npm run coverage   # enforced 97% coverage gate (c8)
-npm run build      # validates data/accountability.json
-```
-
-## Deploy
-
-Continuous deployment: pushing to `main` triggers a Netlify build automatically.
+The Accountable India dataset is maintained via automated daily/weekly collection jobs. See `Accountable India/jobs/` for the runbooks. Pull requests with verified corrections (with source citations) are welcome.
