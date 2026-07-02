@@ -31,10 +31,11 @@ A connected org chart of government offices at Union, State/UT, District, and Lo
 | State Governors + Chief Ministers | All 31 states/UTs |
 | Chief Secretaries | All 36 states/UTs |
 | District Collectors/DMs | **782/785 (99.6%)** |
-| Superintendents of Police | **764/786 (97.2%)** |
-| Municipal Corporations | 238 with Mayor + Commissioner |
+| Superintendents of Police | **766/785 (97.6%)** |
+| Municipal Corporations | 250 with Mayor + Commissioner offices |
 
 See [`Accountable India/`](Accountable%20India/) for CSVs, schema, ER diagram, and collection runbooks.
+See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the application, data pipeline, AI grounding, and deployment architecture.
 
 ## Quick start
 

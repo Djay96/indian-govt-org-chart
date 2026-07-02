@@ -6,80 +6,16 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { readCsvDocument } from "./csv-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "Accountable India", "data");
 const OUT_DIR = path.join(ROOT, "public", "data");
 
-function parseCsv(text) {
-  const rows = [];
-  let row = [];
-  let field = "";
-  let inQuotes = false;
-
-  for (let i = 0; i < text.length; i++) {
-    const ch = text[i];
-    const next = text[i + 1];
-
-    if (inQuotes) {
-      if (ch === '"' && next === '"') {
-        field += '"';
-        i++;
-      } else if (ch === '"') {
-        inQuotes = false;
-      } else {
-        field += ch;
-      }
-      continue;
-    }
-
-    if (ch === '"') {
-      inQuotes = true;
-    } else if (ch === ",") {
-      row.push(field);
-      field = "";
-    } else if (ch === "\n" || (ch === "\r" && next === "\n")) {
-      row.push(field);
-      if (row.some((c) => c.length > 0)) rows.push(row);
-      row = [];
-      field = "";
-      if (ch === "\r") i++;
-    } else if (ch !== "\r") {
-      field += ch;
-    }
-  }
-
-  if (field.length || row.length) {
-    row.push(field);
-    if (row.some((c) => c.length > 0)) rows.push(row);
-  }
-
-  if (!rows.length) return [];
-  const headers = rows[0];
-  return rows.slice(1).map((cells) => {
-    const obj = {};
-    headers.forEach((h, idx) => {
-      const raw = cells[idx] ?? "";
-      if (raw === "" || raw === "NULL") {
-        obj[h] = null;
-      } else if (/^-?\d+$/.test(raw)) {
-        obj[h] = Number(raw);
-      } else if (/^-?\d+\.\d+$/.test(raw)) {
-        obj[h] = Number(raw);
-      } else if (raw === "true" || raw === "false") {
-        obj[h] = raw === "true";
-      } else {
-        obj[h] = raw;
-      }
-    });
-    return obj;
-  });
-}
-
 function readCsv(name) {
   const file = path.join(DATA_DIR, `${name}.csv`);
-  return parseCsv(fs.readFileSync(file, "utf8"));
+  return readCsvDocument(file).rows;
 }
 
 function indexBy(arr, key) {
@@ -109,6 +45,27 @@ function buildSearchIndex(records) {
   }));
 }
 
+function positionAliases(title) {
+  const normalized = title?.toLowerCase() ?? "";
+  const aliases = [];
+  if (
+    normalized.includes("district magistrate") ||
+    normalized.includes("collector")
+  ) {
+    aliases.push("DM", "District Magistrate", "District Collector");
+  }
+  if (normalized.includes("superintendent of police")) {
+    aliases.push("SP", "Superintendent of Police");
+  }
+  if (normalized.includes("chief minister")) aliases.push("CM");
+  if (normalized.includes("prime minister")) aliases.push("PM");
+  if (normalized.includes("chief secretary")) aliases.push("CS");
+  if (normalized.includes("municipal commissioner")) {
+    aliases.push("City Commissioner", "Municipal Commissioner");
+  }
+  return aliases;
+}
+
 function main() {
   const jurisdictions = readCsv("jurisdictions");
   const bodies = readCsv("bodies");
@@ -135,6 +92,16 @@ function main() {
 
   const enrichedPositions = positions.map((p) => {
     const jurisdiction = jurisdictionMap.get(p.jurisdiction_id);
+    const parentJurisdiction = jurisdiction?.parent_id
+      ? jurisdictionMap.get(jurisdiction.parent_id)
+      : null;
+    const state =
+      jurisdiction?.level === "state" || jurisdiction?.level === "ut"
+        ? jurisdiction
+        : parentJurisdiction?.level === "state" ||
+            parentJurisdiction?.level === "ut"
+          ? parentJurisdiction
+          : null;
     const body = p.body_id ? bodyMap.get(p.body_id) : null;
     const personId = positionHolder.get(p.id);
     const person = personId ? personMap.get(personId) : null;
@@ -145,6 +112,7 @@ function main() {
       ...p,
       jurisdiction_name: jurisdiction?.name ?? null,
       jurisdiction_level: jurisdiction?.level ?? null,
+      state_name: state?.name ?? null,
       state_code: jurisdiction?.state_code ?? null,
       body_name: body?.name ?? null,
       body_type: body?.body_type ?? null,
@@ -190,16 +158,20 @@ function main() {
       : null,
   }));
 
+  const contactsByPosition = groupBy(
+    enrichedContacts.filter((contact) => contact.position_id),
+    "position_id"
+  );
+  const contactsByBody = groupBy(
+    enrichedContacts.filter((contact) => contact.body_id),
+    "body_id"
+  );
+
   const states = jurisdictions.filter(
     (j) => j.level === "state" || j.level === "ut"
   );
   const districts = jurisdictions.filter((j) => j.level === "district");
-  const municipal = jurisdictions.filter(
-    (j) =>
-      j.level === "municipal_corporation" ||
-      j.level === "municipality" ||
-      j.level === "town_panchayat"
-  );
+  const municipal = bodies.filter((b) => b.body_type === "local_body");
 
   const positionsByLevel = groupBy(enrichedPositions, "jurisdiction_level");
   const positionsByType = groupBy(positions, "position_type");
@@ -271,7 +243,7 @@ function main() {
       ...b,
       _type: "body",
       _label: b.name,
-      _subtitle: bodyMap.get(b.jurisdiction_id)?.name ?? b.body_type,
+      _subtitle: jurisdictionMap.get(b.jurisdiction_id)?.name ?? b.body_type,
       _keywords: [b.name, b.short_name, b.body_type].filter(Boolean).join(" "),
     })),
     ...topics.map((t) => ({
@@ -303,6 +275,7 @@ function main() {
     },
     coverage: {
       positionsFilled: filledPositions.length,
+      positionsUnfilled: positions.length - filledPositions.length,
       positionsVacant: vacantPositions.length,
       positionsVerified: verifiedPositions.length,
       fillRate:
@@ -357,6 +330,82 @@ function main() {
     searchIndex: buildSearchIndex(searchRecords),
   };
 
+  const positionGroundingRecords = enrichedPositions.map((position) => ({
+    id: `position:${position.id}`,
+    kind: "position",
+    title: position.title,
+    holder: position.person_name,
+    jurisdiction: position.jurisdiction_name,
+    state: position.state_name,
+    level: position.jurisdiction_level,
+    body: position.body_name,
+    reportsTo: position.reports_to_title,
+    aliases: positionAliases(position.title),
+    contacts: (contactsByPosition.get(position.id) ?? [])
+      .filter((contact) => contact.is_public)
+      .slice(0, 8)
+      .map((contact) => ({
+        type: contact.contact_type,
+        value: contact.value,
+        label: contact.label,
+        verified: contact.is_verified,
+      })),
+    status: position.data_status,
+    confidence: position.confidence,
+    sourceUrl: position.source_url,
+  }));
+
+  const bodyGroundingRecords = bodies.map((body) => ({
+    id: `body:${body.id}`,
+    kind: "body",
+    name: body.name,
+    shortName: body.short_name,
+    bodyType: body.body_type,
+    jurisdiction: jurisdictionMap.get(body.jurisdiction_id)?.name ?? null,
+    website: body.official_website,
+    contacts: (contactsByBody.get(body.id) ?? [])
+      .filter((contact) => contact.is_public)
+      .slice(0, 8)
+      .map((contact) => ({
+        type: contact.contact_type,
+        value: contact.value,
+        label: contact.label,
+        verified: contact.is_verified,
+      })),
+    status: body.data_status,
+    confidence: body.confidence,
+    sourceUrl: body.source_url,
+  }));
+
+  const responsibilityGroundingRecords = enrichedResponsibility.map(
+    (responsibility) => ({
+      id: `responsibility:${responsibility.id}`,
+      kind: "responsibility",
+      topic: responsibility.topic_name,
+      keywords: topicMap.get(responsibility.topic_id)?.keywords ?? null,
+      jurisdictionLevel: responsibility.jurisdiction_level,
+      body: responsibility.body_name,
+      position: responsibility.position_title,
+      priority: responsibility.priority,
+      notes: responsibility.notes,
+      sourceUrl: responsibility.source_url,
+    })
+  );
+
+  const mappedTopicIds = new Set(
+    responsibilityMap.map((responsibility) => responsibility.topic_id)
+  );
+  const unmappedTopicGroundingRecords = topics
+    .filter((topic) => !mappedTopicIds.has(topic.id))
+    .map((topic) => ({
+      id: `topic:${topic.id}`,
+      kind: "topic",
+      topic: topic.name,
+      keywords: topic.keywords,
+      description: topic.description,
+      mappingStatus: "No responsibility mapping is currently available",
+    }));
+
   const aiContext = {
     generatedAt: metrics.generatedAt,
     summary: `Accountable India is a government accountability dataset covering India at Union, State/UT, District, and Local levels.
@@ -372,18 +421,17 @@ Data verification: ${metrics.coverage.verificationRate}% of positions verified.`
       .map((s) => `${s.name}: ${s.districts} districts, ${s.dms_filled}/${s.dms_total} DMs named`),
     positionTypes: metrics.breakdowns.positionsByType,
     contactTypes: metrics.breakdowns.contactsByType,
-    samplePositions: enrichedPositions
-      .filter((p) => p.person_name && p.rank_level && p.rank_level <= 3)
-      .slice(0, 30)
-      .map(
-        (p) =>
-          `${p.title} — ${p.person_name} (${p.jurisdiction_name}, ${p.jurisdiction_level})`
-      ),
     topics: topics.map((t) => ({
       name: t.name,
       keywords: t.keywords,
       description: t.description,
     })),
+    groundingRecords: [
+      ...positionGroundingRecords,
+      ...bodyGroundingRecords,
+      ...responsibilityGroundingRecords,
+      ...unmappedTopicGroundingRecords,
+    ],
   };
 
   fs.mkdirSync(OUT_DIR, { recursive: true });

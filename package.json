@@ -5,10 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/build-data.mjs && vite build",
+    "build": "npm run validate:data && node scripts/build-data.mjs && vite build",
     "preview": "vite preview",
-    "build:data": "node scripts/build-data.mjs",
+    "build:data": "npm run validate:data && node scripts/build-data.mjs",
+    "validate:data": "node scripts/validate-csv-data.mjs",
+    "typecheck": "tsc --noEmit",
     "test": "node --test",
+    "test:chat": "node --test test/chat-core.test.js",
+    "test:chat:coverage": "node --experimental-test-coverage --test test/chat-core.test.js",
     "netlify:dev": "npx netlify dev",
     "deploy": "npm run build && npx netlify deploy --prod"
   },

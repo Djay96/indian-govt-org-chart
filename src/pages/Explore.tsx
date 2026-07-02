@@ -138,9 +138,9 @@ export default function Explore() {
                 <span className="badge bg-ink-100 text-ink-600 text-xs">
                   {item.type}
                 </span>
-                {item.data.jurisdiction_level && (
+                {typeof item.data.jurisdiction_level === "string" && (
                   <span className="text-xs text-ink-400">
-                    {formatLevel(String(item.data.jurisdiction_level))}
+                    {formatLevel(item.data.jurisdiction_level)}
                   </span>
                 )}
               </div>

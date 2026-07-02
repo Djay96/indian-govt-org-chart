@@ -75,6 +75,7 @@ export interface Metrics {
   counts: Record<string, number>;
   coverage: {
     positionsFilled: number;
+    positionsUnfilled: number;
     positionsVacant: number;
     positionsVerified: number;
     fillRate: number;
@@ -97,6 +98,18 @@ export interface Metrics {
     dms_filled: number;
     data_status: string;
   }>;
+  latestCollection: {
+    id: number;
+    run_date: string;
+    run_type: string;
+    scope: string | null;
+    records_added: number;
+    records_updated: number;
+    records_flagged: number;
+    status: string;
+    next_target: string | null;
+    notes: string | null;
+  } | null;
 }
 
 export interface Dataset {

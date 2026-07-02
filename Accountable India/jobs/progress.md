@@ -90,11 +90,11 @@ Tamil Nadu (TVK/Vijay, 34) and Kerala (UDF/Satheesan, 20) new-govt cabinets now 
 - [x] DM/Collector office created for every district
 - [x] **DM NAMES filled for 782/785 (99.6%)** — only 3 unfilled: Bengaluru North/South (proposed sub-districts, not separate admin units) + Kolkata (no DM by design)
 - [x] Superintendent of Police office created for every district
-- [x] **SP NAMES filled for 764/786 (97.2%)** — 22 blanks remain (Ladakh police posts 5, Mizoram 4, Telangana commissionerates 4, Arunachal 1, Haryana 1, Karnataka 2, Punjab 1, Nagaland 1, few others)
+- [x] **SP NAMES filled for 766/785 (97.6%)** — 19 blanks remain across the remaining district/commissionerate gaps
 - [ ] District-level department officers
 
 ### PHASE 6 — Local bodies  ⏳ MUNICIPAL CORPORATIONS DONE
-- [x] 238 Municipal Corporations added as local bodies (170 linked to their district, 68 to state)
+- [x] 250 Municipal Corporations added as local bodies, including the 12 Karnataka corporations
 - [x] Mayor office + Municipal Commissioner office for each (Commissioner reports to district DM/state CS)
 - [ ] Fill Mayor / Commissioner NAMES + corporation contacts (verify via corp official sites / Chrome)
 - [ ] Municipalities / Nagar Panchayats (smaller towns)
