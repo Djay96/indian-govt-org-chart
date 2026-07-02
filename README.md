@@ -4,7 +4,7 @@
 
 Open-source dashboards, search, geography views, data-quality metrics, wiki docs, and an AI agent — built on the **Accountable India** dataset of every government office in India.
 
-**Live:** https://kisko-bolun-up.netlify.app  
+**Live:** https://indianorgchart.netlify.app  
 **Repo:** https://github.com/Djay96/indian-govt-org-chart
 
 ---
@@ -75,7 +75,7 @@ npm run deploy              # build + deploy to Netlify prod
 
 ## Related project
 
-**[Kisko Bolun UP](https://kisko-bolun-up.netlify.app)** — a separate civic tool for Uttar Pradesh that maps citizen complaints to responsible officers. Same maintainer, different scope.
+**[Kisko Bolun UP](https://indianorgchart.netlify.app)** — a separate civic tool for Uttar Pradesh that maps citizen complaints to responsible officers. Same maintainer, different scope.
 
 ## License
 
