@@ -6,6 +6,10 @@ import {
   renderWikiMarkdown,
 } from "../lib/wiki";
 
+function wikiPath(slug: string) {
+  return slug ? `/docs/${slug}` : "/docs";
+}
+
 export default function WikiPage() {
   const { slug = "" } = useParams();
   const page = getWikiPage(slug);
@@ -35,8 +39,8 @@ export default function WikiPage() {
           <nav className="space-y-1">
             {allPages.map((p) => (
               <Link
-                key={p.slug}
-                to={`/docs/${p.slug}`}
+                key={p.slug || "index"}
+                to={wikiPath(p.slug)}
                 className={`block rounded-lg px-2 py-1.5 text-sm transition ${
                   p.slug === page.slug
                     ? "bg-ink-950 text-white"
@@ -56,8 +60,8 @@ export default function WikiPage() {
               <div className="space-y-1">
                 {backlinks.map((bl) => (
                   <Link
-                    key={bl.slug}
-                    to={`/docs/${bl.slug}`}
+                    key={bl.slug || "index"}
+                    to={wikiPath(bl.slug)}
                     className="block text-sm text-saffron-600 hover:underline"
                   >
                     {bl.title.replace(/^#+\s*/, "")}
@@ -86,7 +90,7 @@ export default function WikiPage() {
               {page.links.map((link) => (
                 <Link
                   key={link}
-                  to={`/docs/${link}`}
+                  to={wikiPath(link)}
                   className="rounded-full border border-ink-200 px-3 py-1 text-sm text-ink-700 hover:border-saffron-400 hover:text-saffron-700 transition"
                 >
                   {link.replace(/-/g, " ")}

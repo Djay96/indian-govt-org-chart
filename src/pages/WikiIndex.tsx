@@ -21,7 +21,7 @@ export default function WikiIndex() {
         {pages.map((page) => (
           <Link
             key={page.slug}
-            to={`/docs/${page.slug}`}
+            to={page.slug ? `/docs/${page.slug}` : "/docs"}
             className="card p-5 hover:border-saffron-400 hover:shadow-md transition group"
           >
             <h2 className="font-display text-lg font-semibold text-ink-900 group-hover:text-saffron-700">
