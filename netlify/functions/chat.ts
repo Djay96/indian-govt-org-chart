@@ -1,15 +1,12 @@
 import type { Context, Config } from "@netlify/functions";
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 function loadAiContext() {
   const candidates = [
-    path.join(__dirname, "../../public/data/ai-context.json"),
-    path.join(process.cwd(), "public/data/ai-context.json"),
     path.join(process.cwd(), "dist/data/ai-context.json"),
+    path.join(process.cwd(), "public/data/ai-context.json"),
+    path.join(process.cwd(), "data/ai-context.json"),
   ];
   for (const p of candidates) {
     try {
